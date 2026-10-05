@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Appointment Scheduling Software & Booking System | GlowSuite',
+  title: 'Salon Appointment Scheduling Software & Booking System | Saloenza',
   description:
-    'Keep your salon organized with GlowSuite appointment scheduling software. Manage bookings, calendars, and daily appointments from one connected workspace.',
+    'Keep your salon organized with Saloenza appointment scheduling software. Manage bookings, calendars, and daily appointments from one connected workspace.',
   alternates: {
-    canonical: 'https://glowsuite.in/features/appointments',
+    canonical: 'https://saloenza.com/features/appointments',
   },
 };
 
@@ -32,7 +32,7 @@ export default function AppointmentsFeaturePage() {
         name: 'How does scheduling connect with client profiles?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'In a connected platform like GlowSuite, every appointment on the calendar is linked directly to a client profile. This allows staff to view appointment history, past services, and client details the moment a booking is made.',
+          text: 'In a connected platform like Saloenza, every appointment on the calendar is linked directly to a client profile. This allows staff to view appointment history, past services, and client details the moment a booking is made.',
         },
       },
       {
@@ -49,10 +49,10 @@ export default function AppointmentsFeaturePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Appointment Scheduling Software & Booking System | GlowSuite',
+    name: 'Salon Appointment Scheduling Software & Booking System | Saloenza',
     description:
-      'Keep your salon organized with GlowSuite appointment scheduling software. Manage bookings, calendars, and daily appointments from one connected workspace.',
-    url: 'https://glowsuite.in/features/appointments',
+      'Keep your salon organized with Saloenza appointment scheduling software. Manage bookings, calendars, and daily appointments from one connected workspace.',
+    url: 'https://saloenza.com/features/appointments',
   };
 
   return (
@@ -71,7 +71,7 @@ export default function AppointmentsFeaturePage() {
         title="Smart Salon Appointment Scheduling"
         description="Keep your salon organized with intuitive appointment scheduling software. Manage your calendar and daily bookings effortlessly from one connected workspace."
         imageSrc="/images/product/appointments.webp"
-        imageAlt="GlowSuite Salon Appointment Scheduling Software Interface"
+        imageAlt="Saloenza Salon Appointment Scheduling Software Interface"
         floatingCards={[
           {
             icon: (
@@ -171,7 +171,7 @@ export default function AppointmentsFeaturePage() {
                     How does scheduling connect with client profiles?
                   </h3>
                   <p className="text-[1.0625rem] text-[var(--text-secondary)] leading-relaxed" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                    In a connected platform like GlowSuite, every appointment on the calendar is linked directly to a client profile. This allows staff to view appointment history, past services, and client details the moment a booking is made.
+                    In a connected platform like Saloenza, every appointment on the calendar is linked directly to a client profile. This allows staff to view appointment history, past services, and client details the moment a booking is made.
                   </p>
                 </div>
               </FadeUp>
@@ -197,8 +197,8 @@ export default function AppointmentsFeaturePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Organize your schedule with GlowSuite."
+      <SaloenzaCTA 
+        title="Organize your schedule with Saloenza."
         subtitle="Bring your appointments, clients, payments, staff, inventory, and reporting together in one modern platform."
       />
     </>

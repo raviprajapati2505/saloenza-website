@@ -130,7 +130,7 @@ export function DemoDetailsForm({
         <button
           type="button"
           onClick={onBack}
-          className="inline-flex items-center gap-2 text-[0.875rem] font-medium text-[var(--text-secondary)] hover:text-[#BC269B] transition-colors focus-visible:outline-2 focus-visible:outline-[var(--focus)] rounded-md"
+          className="inline-flex items-center gap-2 text-[0.875rem] font-medium text-[var(--text-secondary)] hover:text-[#d50d65] transition-colors focus-visible:outline-2 focus-visible:outline-[var(--focus)] rounded-md"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -148,9 +148,9 @@ export function DemoDetailsForm({
       </div>
 
       {/* Selected Session Summary */}
-      <div className="mb-6 p-4 rounded-[16px] bg-[#FBF0F9] border border-[rgba(188,38,155,0.15)] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <div className="mb-6 p-4 rounded-[16px] bg-[#FBF2F6] border border-[rgba(213,13,101,0.15)] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div className="flex items-start sm:items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-[#BC269B] shadow-sm flex-shrink-0 mt-0.5 sm:mt-0">
+          <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-[#d50d65] shadow-sm flex-shrink-0 mt-0.5 sm:mt-0">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 16 14"></polyline>
@@ -193,7 +193,7 @@ export function DemoDetailsForm({
               htmlFor="demo-fullname"
               className="block text-[0.8125rem] font-medium text-[var(--text-primary)] mb-1.5"
             >
-              Full Name <span className="text-[#BC269B]">*</span>
+              Full Name <span className="text-[#d50d65]">*</span>
             </label>
             <input
               id="demo-fullname"
@@ -205,7 +205,7 @@ export function DemoDetailsForm({
                 if (errors.fullName) setErrors({ ...errors, fullName: undefined });
               }}
               placeholder="e.g. Sarah Jenkins"
-              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 ${
+              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 ${
                 errors.fullName ? 'border-red-400' : 'border-[var(--border)]'
               }`}
               style={{ fontFamily: 'var(--font-primary)' }}
@@ -218,7 +218,7 @@ export function DemoDetailsForm({
               htmlFor="demo-business"
               className="block text-[0.8125rem] font-medium text-[var(--text-primary)] mb-1.5"
             >
-              Salon / Business Name <span className="text-[#BC269B]">*</span>
+              Salon / Business Name <span className="text-[#d50d65]">*</span>
             </label>
             <input
               id="demo-business"
@@ -230,7 +230,7 @@ export function DemoDetailsForm({
                 if (errors.businessName) setErrors({ ...errors, businessName: undefined });
               }}
               placeholder="e.g. Lumina Hair & Spa"
-              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 ${
+              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 ${
                 errors.businessName ? 'border-red-400' : 'border-[var(--border)]'
               }`}
               style={{ fontFamily: 'var(--font-primary)' }}
@@ -246,7 +246,7 @@ export function DemoDetailsForm({
               htmlFor="demo-email"
               className="block text-[0.8125rem] font-medium text-[var(--text-primary)] mb-1.5"
             >
-              Work Email <span className="text-[#BC269B]">*</span>
+              Work Email <span className="text-[#d50d65]">*</span>
             </label>
             <input
               id="demo-email"
@@ -258,7 +258,7 @@ export function DemoDetailsForm({
                 if (errors.email) setErrors({ ...errors, email: undefined });
               }}
               placeholder="sarah@luminasalon.com"
-              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 ${
+              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 ${
                 errors.email ? 'border-red-400' : 'border-[var(--border)]'
               }`}
               style={{ fontFamily: 'var(--font-primary)' }}
@@ -271,7 +271,7 @@ export function DemoDetailsForm({
               htmlFor="demo-phone"
               className="block text-[0.8125rem] font-medium text-[var(--text-primary)] mb-1.5"
             >
-              WhatsApp / Phone Number <span className="text-[#BC269B]">*</span>
+              WhatsApp / Phone Number <span className="text-[#d50d65]">*</span>
             </label>
             <input
               id="demo-phone"
@@ -283,7 +283,7 @@ export function DemoDetailsForm({
                 if (errors.phone) setErrors({ ...errors, phone: undefined });
               }}
               placeholder="+91 98765 43210"
-              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 ${
+              className={`w-full px-4 py-3 rounded-[12px] bg-white border text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 ${
                 errors.phone ? 'border-red-400' : 'border-[var(--border)]'
               }`}
               style={{ fontFamily: 'var(--font-primary)' }}
@@ -304,7 +304,7 @@ export function DemoDetailsForm({
             id="demo-locations"
             value={formData.locations}
             onChange={(e) => setFormData({ ...formData, locations: e.target.value })}
-            className="w-full px-4 py-3 rounded-[12px] bg-white border border-[var(--border)] text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 cursor-pointer"
+            className="w-full px-4 py-3 rounded-[12px] bg-white border border-[var(--border)] text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 cursor-pointer"
             style={{ fontFamily: 'var(--font-primary)' }}
           >
             <option value="1 Location">1 Location (Single Salon)</option>
@@ -328,7 +328,7 @@ export function DemoDetailsForm({
             value={formData.notes}
             onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
             placeholder="Tell us about your team size, what software you currently use, or specific questions..."
-            className="w-full px-4 py-3 rounded-[12px] bg-white border border-[var(--border)] text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#BC269B] focus:ring-2 focus:ring-[#BC269B]/15 resize-none"
+            className="w-full px-4 py-3 rounded-[12px] bg-white border border-[var(--border)] text-[0.9375rem] text-[var(--text-primary)] transition-all outline-none focus:border-[#d50d65] focus:ring-2 focus:ring-[#d50d65]/15 resize-none"
             style={{ fontFamily: 'var(--font-primary)' }}
           />
         </div>
@@ -346,7 +346,7 @@ export function DemoDetailsForm({
                   <button
                     type="button"
                     onClick={onBack}
-                    className="mt-2 inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-[#BC269B] hover:underline"
+                    className="mt-2 inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-[#d50d65] hover:underline"
                   >
                     &larr; Choose a different demo slot
                   </button>
@@ -361,7 +361,7 @@ export function DemoDetailsForm({
           <button
             type="submit"
             disabled={isSubmitting}
-            className="btn btn-primary w-full py-4 text-[1.0625rem] font-medium shadow-[0_6px_20px_rgba(188,38,155,0.25)] flex items-center justify-center gap-2.5 disabled:opacity-60 disabled:cursor-not-allowed"
+            className="btn btn-primary w-full py-4 text-[1.0625rem] font-medium shadow-[0_6px_20px_rgba(213,13,101,0.25)] flex items-center justify-center gap-2.5 disabled:opacity-60 disabled:cursor-not-allowed"
           >
             {isSubmitting ? (
               <>

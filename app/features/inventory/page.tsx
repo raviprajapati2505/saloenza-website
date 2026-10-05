@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Inventory Management Software | GlowSuite',
+  title: 'Salon Inventory Management Software | Saloenza',
   description:
-    'Take control of salon retail products and professional supplies with GlowSuite inventory management software. Track stock, low-stock items, and purchasing in one connected platform.',
+    'Take control of salon retail products and professional supplies with Saloenza inventory management software. Track stock, low-stock items, and purchasing in one connected platform.',
   alternates: {
-    canonical: 'https://glowsuite.in/features/inventory',
+    canonical: 'https://saloenza.com/features/inventory',
   },
 };
 
@@ -49,10 +49,10 @@ export default function InventoryFeaturePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Inventory Management Software | GlowSuite',
+    name: 'Salon Inventory Management Software | Saloenza',
     description:
-      'Take control of salon retail products and professional supplies with GlowSuite inventory management software. Track stock, low-stock items, and purchasing in one connected platform.',
-    url: 'https://glowsuite.in/features/inventory',
+      'Take control of salon retail products and professional supplies with Saloenza inventory management software. Track stock, low-stock items, and purchasing in one connected platform.',
+    url: 'https://saloenza.com/features/inventory',
   };
 
   return (
@@ -71,7 +71,7 @@ export default function InventoryFeaturePage() {
         title="Smart Inventory Management for Your Salon"
         description="Take control of your retail products and professional supplies. Track stock, monitor low-stock alerts, and manage purchasing from one connected platform."
         imageSrc="/images/product/inventory.webp"
-        imageAlt="GlowSuite Salon Inventory Management Software Dashboard"
+        imageAlt="Saloenza Salon Inventory Management Software Dashboard"
         floatingCards={[
           {
             icon: (
@@ -197,8 +197,8 @@ export default function InventoryFeaturePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Take control of your inventory with GlowSuite."
+      <SaloenzaCTA 
+        title="Take control of your inventory with Saloenza."
       />
     </>
   );

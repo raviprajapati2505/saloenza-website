@@ -16,7 +16,7 @@ const widthClass: Record<ContainerWidth, string> = {
 };
 
 /**
- * GlowSuite Container primitive.
+ * Saloenza Container primitive.
  * Controls max-width and responsive horizontal padding.
  *
  * - standard (1120px): Most page sections

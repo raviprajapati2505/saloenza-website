@@ -9,7 +9,7 @@ import { FeaturesMegaMenu } from './FeaturesMegaMenu';
 import { cn } from '@/lib/utils';
 
 /**
- * GlowSuite Header — fixed, scroll-aware, premium glass transition.
+ * Saloenza Header — fixed, scroll-aware, premium glass transition.
  *
  * STATE 0 — At top (scrollY ≤ 36px):
  *   Fully transparent. Visually integrated with the Hero background.
@@ -59,7 +59,7 @@ export function Header() {
     <>
       <header
         role="banner"
-        className="fixed top-0 inset-x-0 z-50 h-[68px]"
+        className="fixed top-0 inset-x-0 z-50 h-[76px]"
         style={{
           // All transition properties in one declaration for performance
           transition: 'background-color 280ms ease-out, backdrop-filter 280ms ease-out, -webkit-backdrop-filter 280ms ease-out, border-color 280ms ease-out, box-shadow 280ms ease-out',
@@ -87,16 +87,16 @@ export function Header() {
           {/* ── Logo ─────────────────────────────────────────── */}
           <Link
             href="/"
-            aria-label="GlowSuite home"
+            aria-label="Saloenza home"
             className="flex-shrink-0 flex items-center focus-visible:outline-2 focus-visible:outline-[var(--focus)] focus-visible:outline-offset-3 rounded-[4px]"
           >
             <Image
-              src="/brand/logo-trimmed.png"
-              alt="GlowSuite"
-              width={160}
-              height={36}
+              src="/brand/saloenza-logo.png"
+              alt="Saloenza"
+              width={188}
+              height={52}
               priority
-              className="h-8 md:h-[34px] w-auto object-contain"
+              className="h-11 md:h-[52px] w-auto object-contain"
             />
           </Link>
 
@@ -132,7 +132,7 @@ export function Header() {
 
             {/* Sign In — Secondary Button (Outline) */}
             <Link
-              href="https://app.glowsuite.in/login"
+              href="https://app.saloenza.com/login"
               className="btn btn-secondary btn-sm"
             >
               Sign In

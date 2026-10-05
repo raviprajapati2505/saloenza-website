@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { navLinks, navCTAs, featureGroups } from '@/content/navigation';
 import { cn } from '@/lib/utils';
@@ -59,10 +60,16 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
         )}
       >
         {/* Header row inside drawer: logo + close button */}
-        <div className="sticky top-0 z-10 bg-bg-elevated flex items-center justify-between px-5 h-[60px] border-b border-[var(--border-subtle)]">
-          <span className="text-h3 font-bold text-text-primary" aria-hidden="true">
-            GlowSuite
-          </span>
+        <div className="sticky top-0 z-10 bg-bg-elevated flex items-center justify-between px-5 h-[72px] border-b border-[var(--border-subtle)]">
+          <Link href="/" onClick={onClose} aria-label="Saloenza home" className="flex items-center">
+            <Image
+              src="/brand/saloenza-logo.png"
+              alt="Saloenza"
+              width={160}
+              height={44}
+              className="h-10 w-auto object-contain"
+            />
+          </Link>
           <button
             onClick={onClose}
             aria-label="Close navigation menu"
@@ -106,7 +113,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
                             <Link
                               href={sublink.href}
                               onClick={onClose}
-                              className="block px-3 py-2.5 rounded-[var(--radius-md)] text-[0.9375rem] font-medium text-[var(--text-secondary)] hover:text-[var(--gs-purple)] hover:bg-[rgba(139,63,216,0.05)] transition-colors duration-150"
+                              className="block px-3 py-2.5 rounded-[var(--radius-md)] text-[0.9375rem] font-medium text-[var(--text-secondary)] hover:text-[var(--gs-purple)] hover:bg-[rgba(62,39,120,0.05)] transition-colors duration-150"
                             >
                               {sublink.label}
                             </Link>

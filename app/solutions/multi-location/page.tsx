@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Multi-Location Salon Management Software | GlowSuite',
+  title: 'Multi-Location Salon Management Software | Saloenza',
   description:
-    'Manage multiple salon locations from one connected platform. Centralize scheduling, clients, staff permissions, billing, and reports across branches with GlowSuite.',
+    'Manage multiple salon locations from one connected platform. Centralize scheduling, clients, staff permissions, billing, and reports across branches with Saloenza.',
   alternates: {
-    canonical: 'https://glowsuite.in/solutions/multi-location',
+    canonical: 'https://saloenza.com/solutions/multi-location',
   },
 };
 
@@ -29,10 +29,10 @@ export default function MultiLocationSolutionPage() {
       },
       {
         '@type': 'Question',
-        name: 'Can GlowSuite manage multiple salon locations?',
+        name: 'Can Saloenza manage multiple salon locations?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. GlowSuite is designed to support salon businesses with multiple branches. You can manage appointments, clients, staff, billing, inventory, and reporting across your locations from one connected platform.',
+          text: 'Yes. Saloenza is designed to support salon businesses with multiple branches. You can manage appointments, clients, staff, billing, inventory, and reporting across your locations from one connected platform.',
         },
       },
       {
@@ -40,7 +40,7 @@ export default function MultiLocationSolutionPage() {
         name: 'Can staff permissions be managed across salon locations?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. GlowSuite allows you to define role-based access for each team member. You can control which staff can access which locations and restrict or grant visibility into specific parts of the business accordingly.',
+          text: 'Yes. Saloenza allows you to define role-based access for each team member. You can control which staff can access which locations and restrict or grant visibility into specific parts of the business accordingly.',
         },
       },
       {
@@ -48,7 +48,7 @@ export default function MultiLocationSolutionPage() {
         name: 'Can I see reporting across multiple salon branches?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. GlowSuite provides cross-location business reporting. You can view performance data for individual branches or monitor your entire salon operation from one centralized dashboard.',
+          text: 'Yes. Saloenza provides cross-location business reporting. You can view performance data for individual branches or monitor your entire salon operation from one centralized dashboard.',
         },
       },
     ],
@@ -57,10 +57,10 @@ export default function MultiLocationSolutionPage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Multi-Location Salon Management Software | GlowSuite',
+    name: 'Multi-Location Salon Management Software | Saloenza',
     description:
-      'Manage multiple salon locations from one connected platform. Centralize scheduling, clients, staff permissions, billing, and reports across branches with GlowSuite.',
-    url: 'https://glowsuite.in/solutions/multi-location',
+      'Manage multiple salon locations from one connected platform. Centralize scheduling, clients, staff permissions, billing, and reports across branches with Saloenza.',
+    url: 'https://saloenza.com/solutions/multi-location',
   };
 
   return (
@@ -77,9 +77,9 @@ export default function MultiLocationSolutionPage() {
       <EditorialHero
         eyebrow="MULTI-LOCATION MANAGEMENT"
         title="Manage Every Salon Location From One Connected Platform"
-        description="Run multiple salon locations without losing visibility across your business. GlowSuite connects appointments, clients, staff, billing, inventory, and reporting in one connected salon management platform."
+        description="Run multiple salon locations without losing visibility across your business. Saloenza connects appointments, clients, staff, billing, inventory, and reporting in one connected salon management platform."
         imageSrc="/images/product/multi-location.webp"
-        imageAlt="GlowSuite Multi-Location Salon Management Software Dashboard"
+        imageAlt="Saloenza Multi-Location Salon Management Software Dashboard"
         floatingCards={[
           {
             icon: (
@@ -124,7 +124,7 @@ export default function MultiLocationSolutionPage() {
       <ProductStorySection
         eyebrow="TEAM MANAGEMENT"
         title="Manage Staff and Permissions"
-        description="Maintaining clear team access across branches is critical for security and operational clarity. GlowSuite allows you to define specific roles and permissions for each team member, giving them access only to the branches and functionality relevant to their role."
+        description="Maintaining clear team access across branches is critical for security and operational clarity. Saloenza allows you to define specific roles and permissions for each team member, giving them access only to the branches and functionality relevant to their role."
         imageSrc="/images/product/staff.webp"
         imageAlt="Managing staff across locations"
         reverse={true}
@@ -134,7 +134,7 @@ export default function MultiLocationSolutionPage() {
       <ProductStorySection
         eyebrow="BUSINESS VISIBILITY"
         title="See Performance Across Your Business"
-        description="Understand exactly how each location is performing. GlowSuite provides cross-location reporting, allowing you to view daily revenue, payment summaries, and business metrics at the individual branch level or across your entire operation."
+        description="Understand exactly how each location is performing. Saloenza provides cross-location reporting, allowing you to view daily revenue, payment summaries, and business metrics at the individual branch level or across your entire operation."
         imageSrc="/images/product/reports.webp"
         imageAlt="Cross-location business reporting"
         backgroundColor="var(--bg-page)"
@@ -156,16 +156,16 @@ export default function MultiLocationSolutionPage() {
                   a: 'Multi-location salon software is a platform that connects the operations of multiple salon branches under a single management system. Instead of maintaining disconnected workflows across each location, it provides one centralized view for scheduling, client data, billing, inventory, and business reporting.',
                 },
                 {
-                  q: 'Can GlowSuite manage multiple salon locations?',
-                  a: 'Yes. GlowSuite is designed to support salon businesses with multiple branches. You can manage appointments, clients, staff, billing, inventory, and reporting across your locations from one connected platform.',
+                  q: 'Can Saloenza manage multiple salon locations?',
+                  a: 'Yes. Saloenza is designed to support salon businesses with multiple branches. You can manage appointments, clients, staff, billing, inventory, and reporting across your locations from one connected platform.',
                 },
                 {
                   q: 'Can staff permissions be managed across salon locations?',
-                  a: 'Yes. GlowSuite allows you to define role-based access for each team member. You can control which staff can access which locations and restrict or grant visibility into specific parts of the business accordingly.',
+                  a: 'Yes. Saloenza allows you to define role-based access for each team member. You can control which staff can access which locations and restrict or grant visibility into specific parts of the business accordingly.',
                 },
                 {
                   q: 'Can I see reporting across multiple salon branches?',
-                  a: 'Yes. GlowSuite provides cross-location business reporting. You can view performance data for individual branches or monitor your entire salon operation from one centralized dashboard.',
+                  a: 'Yes. Saloenza provides cross-location business reporting. You can view performance data for individual branches or monitor your entire salon operation from one centralized dashboard.',
                 },
               ].map((item, i) => (
                 <FadeUp key={i} delay={80 + (i * 40)}>
@@ -190,7 +190,7 @@ export default function MultiLocationSolutionPage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
+      <SaloenzaCTA 
         title="Run every salon location from one connected platform."
       />
     </>

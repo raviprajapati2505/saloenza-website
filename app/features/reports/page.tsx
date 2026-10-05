@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Reporting Software & Business Analytics | GlowSuite',
+  title: 'Salon Reporting Software & Business Analytics | Saloenza',
   description:
-    "Understand your salon's performance with clear reports, revenue visibility, and business insights from GlowSuite salon reporting software.",
+    "Understand your salon's performance with clear reports, revenue visibility, and business insights from Saloenza salon reporting software.",
   alternates: {
-    canonical: 'https://glowsuite.in/features/reports',
+    canonical: 'https://saloenza.com/features/reports',
   },
 };
 
@@ -40,7 +40,7 @@ export default function ReportsFeaturePage() {
         name: 'Can I view reports for multiple salon locations?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'For businesses with multiple branches, GlowSuite provides cross-location reporting. You can view the performance of individual locations or monitor the overall health of your entire salon business from one centralized dashboard.',
+          text: 'For businesses with multiple branches, Saloenza provides cross-location reporting. You can view the performance of individual locations or monitor the overall health of your entire salon business from one centralized dashboard.',
         },
       },
     ],
@@ -49,10 +49,10 @@ export default function ReportsFeaturePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Reporting Software & Business Analytics | GlowSuite',
+    name: 'Salon Reporting Software & Business Analytics | Saloenza',
     description:
-      "Understand your salon's performance with clear reports, revenue visibility, and business insights from GlowSuite salon reporting software.",
-    url: 'https://glowsuite.in/features/reports',
+      "Understand your salon's performance with clear reports, revenue visibility, and business insights from Saloenza salon reporting software.",
+    url: 'https://saloenza.com/features/reports',
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ReportsFeaturePage() {
         title="Clear Insights for Your Salon Business"
         description="Replace guesswork with visibility. Track your salon's daily performance and understand your revenue effortlessly with powerful, easy-to-read business reports."
         imageSrc="/images/product/reports.webp"
-        imageAlt="GlowSuite Salon Reporting Software and Business Analytics Dashboard"
+        imageAlt="Saloenza Salon Reporting Software and Business Analytics Dashboard"
         floatingCards={[
           {
             icon: (
@@ -188,7 +188,7 @@ export default function ReportsFeaturePage() {
                     Can I view reports for multiple salon locations?
                   </h3>
                   <p className="text-[1.0625rem] text-[var(--text-secondary)] leading-relaxed" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                    For businesses with multiple branches, GlowSuite provides cross-location reporting. You can view the performance of individual locations or monitor the overall health of your entire salon business from one centralized dashboard.
+                    For businesses with multiple branches, Saloenza provides cross-location reporting. You can view the performance of individual locations or monitor the overall health of your entire salon business from one centralized dashboard.
                   </p>
                 </div>
               </FadeUp>
@@ -197,8 +197,8 @@ export default function ReportsFeaturePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Understand your business with GlowSuite."
+      <SaloenzaCTA 
+        title="Understand your business with Saloenza."
       />
     </>
   );

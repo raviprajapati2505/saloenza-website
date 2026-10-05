@@ -4,21 +4,21 @@ import { FadeUp, FadeIn } from '@/components/motion';
 
 import { type ReactNode } from 'react';
 
-export interface GlowSuiteCTAProps {
+export interface SaloenzaCTAProps {
   title?: ReactNode;
   subtitle?: ReactNode;
   eyebrow?: ReactNode;
 }
 
-export function GlowSuiteCTA({
-  title = "Organize your salon with GlowSuite.",
+export function SaloenzaCTA({
+  title = "Organize your salon with Saloenza.",
   subtitle = "Bring your appointments, clients, payments, staff, inventory, and reporting together in one modern platform.",
   eyebrow = "READY TO GROW YOUR SALON?"
-}: GlowSuiteCTAProps) {
+}: SaloenzaCTAProps) {
   return (
     <section className="relative py-24 md:py-32 overflow-hidden text-center" style={{ background: 'var(--bg-cta)' }}>
       <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none flex items-center justify-center">
-        <div style={{ width: '100%', height: '100%', background: 'radial-gradient(circle at center, rgba(188,38,155,0.06) 0%, rgba(139,63,216,0.02) 40%, rgba(255,255,255,0) 70%)' }} />
+        <div style={{ width: '100%', height: '100%', background: 'radial-gradient(circle at center, rgba(213,13,101,0.06) 0%, rgba(62,39,120,0.02) 40%, rgba(255,255,255,0) 70%)' }} />
       </div>
 
       <Container className="relative z-10">
@@ -59,7 +59,7 @@ export function GlowSuiteCTA({
                 href="/salon-management-software"
                 className="btn btn-secondary btn-lg"
               >
-                Explore GlowSuite
+                Explore Saloenza
               </Link>
             </div>
           </FadeUp>

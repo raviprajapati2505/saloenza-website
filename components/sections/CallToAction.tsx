@@ -22,7 +22,7 @@ export function CallToAction() {
           style={{
             width: '100%',
             height: '100%',
-            background: 'radial-gradient(circle at center, rgba(139,63,216,0.06) 0%, rgba(241,14,153,0.02) 40%, rgba(251,251,251,0) 70%)',
+            background: 'radial-gradient(circle at center, rgba(62,39,120,0.06) 0%, rgba(213,13,101,0.02) 40%, rgba(251,251,251,0) 70%)',
           }}
         />
       </div>
@@ -44,7 +44,7 @@ export function CallToAction() {
           
           <FadeUp delay={160}>
             <p className="text-body-lg text-[var(--text-secondary)] max-w-[560px] mx-auto leading-relaxed">
-              Bring appointments, clients, payments, staff, inventory, and reporting together with GlowSuite.
+              Bring appointments, clients, payments, staff, inventory, and reporting together with Saloenza.
             </p>
           </FadeUp>
           

@@ -54,7 +54,7 @@ const variantStyles: Record<FrameVariant, string> = {
  *   // Fixed dimensions (preferred for performance)
  *   <ProductFrame
  *     src="/images/screenshot-dashboard.webp"
- *     alt="GlowSuite dashboard showing appointment overview"
+ *     alt="Saloenza dashboard showing appointment overview"
  *     width={1280}
  *     height={800}
  *     priority          // above-fold image

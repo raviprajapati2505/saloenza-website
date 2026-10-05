@@ -10,28 +10,28 @@ const topics = [
   {
     id: '01',
     title: 'Everything connected',
-    content: 'GlowSuite connects appointments, clients, billing, staff, inventory, and reporting in one workspace. Instead of moving information between separate tools, your team can manage the daily flow of the salon from one connected platform.',
+    content: 'Saloenza connects appointments, clients, billing, staff, inventory, and reporting in one workspace. Instead of moving information between separate tools, your team can manage the daily flow of the salon from one connected platform.',
     image: '/images/product/dashboard.webp',
-    imageAlt: 'GlowSuite connected dashboard',
+    imageAlt: 'Saloenza connected dashboard',
   },
   {
     id: '02',
     title: 'Built around real salon operations',
-    content: 'GlowSuite is designed around the everyday work that happens inside a salon. Manage bookings, client information, staff operations, billing, inventory, and reporting from tools built to work together.',
+    content: 'Saloenza is designed around the everyday work that happens inside a salon. Manage bookings, client information, staff operations, billing, inventory, and reporting from tools built to work together.',
     image: '/images/product/appointments.webp',
     imageAlt: 'Salon appointment scheduling interface',
   },
   {
     id: '03',
     title: 'Less switching. Less manual work.',
-    content: 'When appointments, clients, billing, inventory, and reporting are connected, your team can avoid repeatedly moving information between disconnected systems. GlowSuite keeps important business information connected across everyday operations.',
+    content: 'When appointments, clients, billing, inventory, and reporting are connected, your team can avoid repeatedly moving information between disconnected systems. Saloenza keeps important business information connected across everyday operations.',
     image: '/images/product/billing-pos.webp',
     imageAlt: 'Integrated POS and billing interface',
   },
   {
     id: '04',
     title: 'Clearer visibility across your business',
-    content: 'GlowSuite brings operational and business information together so salon owners and managers can understand what is happening across appointments, billing, inventory, staff, and reporting from one connected platform.',
+    content: 'Saloenza brings operational and business information together so salon owners and managers can understand what is happening across appointments, billing, inventory, staff, and reporting from one connected platform.',
     image: '/images/product/reports.webp',
     imageAlt: 'Salon reporting and analytics dashboard',
   },
@@ -44,7 +44,7 @@ const topics = [
   },
 ];
 
-export function WhyGlowSuiteAccordion() {
+export function WhySaloenzaAccordion() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -61,7 +61,7 @@ export function WhyGlowSuiteAccordion() {
           <div className="max-w-[700px] mx-auto text-center flex flex-col items-center">
             <FadeIn delay={0}>
               <p className="text-eyebrow mb-5 text-[var(--gs-pink)]">
-                WHY GLOWSUITE
+                WHY SALOENZA
               </p>
             </FadeIn>
             
@@ -73,7 +73,7 @@ export function WhyGlowSuiteAccordion() {
             
             <FadeUp delay={160}>
               <p className="text-[1.125rem] md:text-[1.1875rem] mb-10 text-[var(--text-secondary)] max-w-[600px] leading-relaxed mx-auto" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                Running a modern salon means keeping appointments, clients, staff, billing, inventory, and reporting moving together. GlowSuite brings these everyday operations into one connected workspace so your team can spend less time switching between tools and more time running the salon.
+                Running a modern salon means keeping appointments, clients, staff, billing, inventory, and reporting moving together. Saloenza brings these everyday operations into one connected workspace so your team can spend less time switching between tools and more time running the salon.
               </p>
             </FadeUp>
 
@@ -94,7 +94,7 @@ export function WhyGlowSuiteAccordion() {
               <div className="relative rounded-[var(--radius-product)] bg-[var(--bg-elevated)] p-2 border border-[var(--border-subtle)] shadow-[var(--shadow-md)]">
                 <ProductFrame
                   src="/images/product/dashboard.webp"
-                  alt="GlowSuite salon dashboard"
+                  alt="Saloenza salon dashboard"
                   width={2000}
                   height={1125}
                   priority
@@ -122,15 +122,15 @@ export function WhyGlowSuiteAccordion() {
             />
             <defs>
               <linearGradient id="premium-wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#D5D4FB" stopOpacity="0" />
-                <stop offset="12.5%" stopColor="#D5D4FB" stopOpacity="0.95" />
-                <stop offset="25%" stopColor="#DCCAF8" />
-                <stop offset="37.5%" stopColor="#E5CAF2" />
-                <stop offset="50%" stopColor="#F0CCEB" />
-                <stop offset="62.5%" stopColor="#F9CEE5" />
-                <stop offset="75%" stopColor="#FCD2DF" />
-                <stop offset="87.5%" stopColor="#FCD7DA" />
-                <stop offset="100%" stopColor="#FDDED2" stopOpacity="0.95" />
+                <stop offset="0%" stopColor="#EDE8F7" stopOpacity="0" />
+                <stop offset="12.5%" stopColor="#EDE8F7" stopOpacity="0.95" />
+                <stop offset="25%" stopColor="#F0E2F3" />
+                <stop offset="37.5%" stopColor="#F4DCEC" />
+                <stop offset="50%" stopColor="#F7D6E6" />
+                <stop offset="62.5%" stopColor="#F9D0E0" />
+                <stop offset="75%" stopColor="#FAD0DC" />
+                <stop offset="87.5%" stopColor="#FBD4DE" />
+                <stop offset="100%" stopColor="#F6E0E6" stopOpacity="0.95" />
               </linearGradient>
             </defs>
           </svg>
@@ -159,7 +159,7 @@ export function WhyGlowSuiteAccordion() {
                     <div className="flex items-center gap-6 md:gap-10">
                       <span 
                         className={`flex items-center justify-center w-12 h-12 rounded-full text-[1rem] font-bold transition-colors ${
-                          isOpen ? 'bg-[#FBF0F9] text-[var(--gs-pink)]' : 'bg-transparent text-[var(--text-muted)]'
+                          isOpen ? 'bg-[#FBF2F6] text-[var(--gs-pink)]' : 'bg-transparent text-[var(--text-muted)]'
                         }`}
                         style={{ fontFamily: "'tt-commons-mono-md', monospace" }}
                       >
@@ -201,7 +201,7 @@ export function WhyGlowSuiteAccordion() {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <div className="bg-[var(--bg-elevated)] rounded-[var(--radius-lg)] md:rounded-[32px] p-6 md:p-12 shadow-[0_4px_24px_rgba(188,38,155,0.06)] border border-[rgba(188,38,155,0.12)] flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
+                      <div className="bg-[var(--bg-elevated)] rounded-[var(--radius-lg)] md:rounded-[32px] p-6 md:p-12 shadow-[0_4px_24px_rgba(213,13,101,0.06)] border border-[rgba(213,13,101,0.12)] flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
                         
                         <div className="flex-1 w-full flex flex-col">
                           <h3 

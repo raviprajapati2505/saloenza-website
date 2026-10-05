@@ -4,14 +4,14 @@ import { BookingWhatWeCover } from '@/components/book-demo/BookingWhatWeCover';
 import { BookDemoInteractive } from '@/components/book-demo/BookDemoInteractive';
 
 export const metadata: Metadata = {
-  title: 'Book a Demo | GlowSuite Salon Management Software',
-  description: 'Get a personalized walkthrough of GlowSuite and see how it can fit your salon’s daily workflow.',
+  title: 'Book a Demo | Saloenza Salon Management Software',
+  description: 'Get a personalized walkthrough of Saloenza and see how it can fit your salon’s daily workflow.',
 };
 
 export default function BookDemoPage() {
   return (
     <div className="relative min-h-screen bg-[var(--bg-page)] overflow-hidden">
-      {/* GlowSuite Approved 9-Stop Atmospheric Gradient */}
+      {/* Saloenza Approved 9-Stop Atmospheric Gradient */}
       <div
         aria-hidden="true"
         className="hero-background-gradient"

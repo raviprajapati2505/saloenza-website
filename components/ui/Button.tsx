@@ -24,7 +24,7 @@ const sizeClass: Record<ButtonSize, string> = {
 };
 
 /**
- * GlowSuite Button primitive.
+ * Saloenza Button primitive.
  *
  * Usage:
  *   <Button variant="primary">Book a Demo</Button>

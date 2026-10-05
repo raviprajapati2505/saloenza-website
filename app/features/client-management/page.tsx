@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Client Management Software & CRM | GlowSuite',
+  title: 'Salon Client Management Software & CRM | Saloenza',
   description:
-    'Keep client information, appointment history, and salon activity organized in one connected workspace with GlowSuite client management software.',
+    'Keep client information, appointment history, and salon activity organized in one connected workspace with Saloenza client management software.',
   alternates: {
-    canonical: 'https://glowsuite.in/features/client-management',
+    canonical: 'https://saloenza.com/features/client-management',
   },
 };
 
@@ -49,10 +49,10 @@ export default function ClientManagementFeaturePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Client Management Software & CRM | GlowSuite',
+    name: 'Salon Client Management Software & CRM | Saloenza',
     description:
-      'Keep client information, appointment history, and salon activity organized in one connected workspace with GlowSuite client management software.',
-    url: 'https://glowsuite.in/features/client-management',
+      'Keep client information, appointment history, and salon activity organized in one connected workspace with Saloenza client management software.',
+    url: 'https://saloenza.com/features/client-management',
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ClientManagementFeaturePage() {
         title="Build Better Client Relationships"
         description="Keep client information, appointment history, and essential notes organized in one connected workspace. Deliver a more personalized salon experience, every single visit."
         imageSrc="/images/product/clients.webp"
-        imageAlt="GlowSuite Salon Client Management Software Profile View"
+        imageAlt="Saloenza Salon Client Management Software Profile View"
         floatingCards={[
           {
             icon: (
@@ -197,8 +197,8 @@ export default function ClientManagementFeaturePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Build better relationships with GlowSuite."
+      <SaloenzaCTA 
+        title="Build better relationships with Saloenza."
       />
     </>
   );

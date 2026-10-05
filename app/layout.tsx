@@ -28,23 +28,27 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: 'GlowSuite — Salon Management Software',
-    template: '%s | GlowSuite',
+    default: 'Saloenza — Salon Management Software',
+    template: '%s | Saloenza',
   },
   description:
-    'GlowSuite is modern salon management software for independent studios, spas, and multi-branch businesses.',
-  metadataBase: new URL('https://glowsuite.in'),
+    'Saloenza is modern salon management software for independent studios, spas, and multi-branch businesses.',
+  metadataBase: new URL('https://saloenza.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
-    siteName: 'GlowSuite',
+    siteName: 'Saloenza',
     locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@glowsuite',
+    site: '@saloenza',
+  },
+  icons: {
+    icon: '/brand/saloenza-logo.png',
+    apple: '/brand/saloenza-logo.png',
   },
   robots: {
     index: true,
@@ -72,16 +76,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
               "@graph": [
                 {
                   "@type": "Organization",
-                  "name": "GlowSuite",
-                  "url": "https://glowsuite.in",
-                  "logo": "https://glowsuite.in/brand/logo-transparent.png"
+                  "name": "Saloenza",
+                  "url": "https://saloenza.com",
+                  "logo": "https://saloenza.com/brand/saloenza-logo.png"
                 },
                 {
                   "@type": "SoftwareApplication",
-                  "name": "GlowSuite",
+                  "name": "Saloenza",
                   "applicationCategory": "BusinessApplication",
                   "operatingSystem": "Web",
-                  "url": "https://glowsuite.in"
+                  "url": "https://saloenza.com"
                 }
               ]
             })

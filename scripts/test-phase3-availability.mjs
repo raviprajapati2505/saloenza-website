@@ -9,7 +9,7 @@ import {
 } from '../lib/booking-availability.ts';
 
 console.log('====================================================');
-console.log('GLOWSUITE BOOK A DEMO — PHASE 3 AVAILABILITY TESTS');
+console.log('SALOENZA BOOK A DEMO — PHASE 3 AVAILABILITY TESTS');
 console.log('====================================================\n');
 
 const TEST_DATE = '2026-10-15'; // A Thursday in 2026

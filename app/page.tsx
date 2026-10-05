@@ -1,14 +1,14 @@
 import { Hero } from '@/components/sections/Hero';
 import { ConnectedPlatform } from '@/components/sections/ConnectedPlatform';
 import { ConnectedWorkspace } from '@/components/sections/ConnectedWorkspace';
-import { WhyGlowSuite } from '@/components/sections/WhyGlowSuite';
+import { WhySaloenza } from '@/components/sections/WhySaloenza';
 import { PlatformCapabilities } from '@/components/sections/PlatformCapabilities';
 import { ProductProof } from '@/components/sections/ProductProof';
 import { CompleteSalonWorkspace } from '@/components/sections/CompleteSalonWorkspace';
 import { CallToAction } from '@/components/sections/CallToAction';
 
 /**
- * GlowSuite Homepage
+ * Saloenza Homepage
  *
  * Sections will be added progressively per instruction.
  */
@@ -18,7 +18,7 @@ export default function HomePage() {
       <Hero />
       <ConnectedPlatform />
       <ConnectedWorkspace />
-      <WhyGlowSuite />
+      <WhySaloenza />
       <PlatformCapabilities />
       <ProductProof />
       <CompleteSalonWorkspace />

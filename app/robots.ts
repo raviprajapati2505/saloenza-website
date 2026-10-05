@@ -13,7 +13,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/'],
       },
     ],
-    sitemap: 'https://glowsuite.in/sitemap.xml',
-    host: 'https://glowsuite.in',
+    sitemap: 'https://saloenza.com/sitemap.xml',
+    host: 'https://saloenza.com',
   };
 }

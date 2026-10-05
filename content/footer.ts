@@ -1,5 +1,5 @@
 /**
- * GlowSuite — Footer Content
+ * Saloenza — Footer Content
  */
 
 export type LinkStatus = 'live' | 'planned';
@@ -15,10 +15,10 @@ export interface FooterLink {
 // Platform
 // ---------------------------------------------------------------------------
 export const platformLinks: FooterLink[] = [
-  { label: 'Why We\'re Different', href: '/why-glowsuite', status: 'live' },
+  { label: 'Why We\'re Different', href: '/why-saloenza', status: 'live' },
   { label: 'Pricing',              href: '#pricing',           status: 'live' },
   { label: 'Book a Live Demo',     href: '/book-a-demo',       status: 'live' },
-  { label: 'Log In',               href: 'https://app.glowsuite.in/login', status: 'live', external: true },
+  { label: 'Log In',               href: 'https://app.saloenza.com/login', status: 'live', external: true },
 ];
 
 // ---------------------------------------------------------------------------
@@ -51,9 +51,9 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  { label: 'Instagram', href: 'https://instagram.com/glowsuite', icon: 'instagram' },
-  { label: 'LinkedIn',  href: 'https://linkedin.com/company/glowsuite', icon: 'linkedin' },
-  { label: 'YouTube',   href: 'https://youtube.com/@glowsuite', icon: 'youtube' },
+  { label: 'Instagram', href: 'https://instagram.com/saloenza', icon: 'instagram' },
+  { label: 'LinkedIn',  href: 'https://linkedin.com/company/saloenza', icon: 'linkedin' },
+  { label: 'YouTube',   href: 'https://youtube.com/@saloenza', icon: 'youtube' },
 ];
 
 // ---------------------------------------------------------------------------

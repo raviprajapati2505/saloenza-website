@@ -1,5 +1,5 @@
 /**
- * GlowSuite — Feature Content
+ * Saloenza — Feature Content
  *
  * Structured data for the Feature Ecosystem section.
  * Final copy to be written in a future step.

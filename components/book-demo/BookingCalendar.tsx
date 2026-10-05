@@ -116,7 +116,7 @@ export function BookingCalendar({ selectedDate, onSelectDate }: BookingCalendarP
             onClick={handlePrevMonth}
             disabled={isPastMonth()}
             aria-label="Previous month"
-            className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--gs-pink)] hover:bg-[#FBF0F9] disabled:opacity-30 disabled:hover:border-[var(--border)] disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all"
+            className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--gs-pink)] hover:bg-[#FBF2F6] disabled:opacity-30 disabled:hover:border-[var(--border)] disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="15 18 9 12 15 6"></polyline>
@@ -126,7 +126,7 @@ export function BookingCalendar({ selectedDate, onSelectDate }: BookingCalendarP
             type="button"
             onClick={handleNextMonth}
             aria-label="Next month"
-            className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--gs-pink)] hover:bg-[#FBF0F9] transition-all"
+            className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--gs-pink)] hover:bg-[#FBF2F6] transition-all"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
@@ -179,9 +179,9 @@ export function BookingCalendar({ selectedDate, onSelectDate }: BookingCalendarP
                 focus-visible:outline-2 focus-visible:outline-[var(--focus)] focus-visible:outline-offset-2
                 ${
                   selected
-                    ? 'bg-[#BC269B] text-white font-semibold shadow-[0_4px_14px_rgba(188,38,155,0.3)] scale-[1.03]'
+                    ? 'bg-[#d50d65] text-white font-semibold shadow-[0_4px_14px_rgba(213,13,101,0.3)] scale-[1.03]'
                     : available
-                    ? 'bg-transparent text-[var(--text-primary)] font-medium hover:bg-[#FBF0F9] hover:text-[#BC269B] hover:border-[rgba(188,38,155,0.4)] border border-transparent cursor-pointer'
+                    ? 'bg-transparent text-[var(--text-primary)] font-medium hover:bg-[#FBF2F6] hover:text-[#d50d65] hover:border-[rgba(213,13,101,0.4)] border border-transparent cursor-pointer'
                     : 'bg-transparent text-[#CBD0DF] cursor-not-allowed pointer-events-none'
                 }
               `}
@@ -193,7 +193,7 @@ export function BookingCalendar({ selectedDate, onSelectDate }: BookingCalendarP
               {todayMarker && !selected && (
                 <span
                   aria-hidden="true"
-                  className="absolute bottom-1.5 w-1 h-1 rounded-full bg-[#BC269B]"
+                  className="absolute bottom-1.5 w-1 h-1 rounded-full bg-[#d50d65]"
                 />
               )}
             </button>
@@ -205,7 +205,7 @@ export function BookingCalendar({ selectedDate, onSelectDate }: BookingCalendarP
       <div className="mt-8 pt-4 border-t border-[var(--border-subtle)] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[0.8125rem] text-[var(--text-muted)]">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1.5">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#BC269B]" />
+            <span className="w-2.5 h-2.5 rounded-full bg-[#d50d65]" />
             <span>Selected</span>
           </div>
           <div className="flex items-center gap-1.5">

@@ -133,12 +133,12 @@ function CapabilityCard({ title, description, icon }: CapabilityCardProps) {
     >
       {/* Icon container */}
       <div
-        className="group-hover:bg-[rgba(139,63,216,0.1)] transition-colors duration-300"
+        className="group-hover:bg-[rgba(62,39,120,0.1)] transition-colors duration-300"
         style={{
           width: '40px',
           height: '40px',
           borderRadius: '10px',
-          backgroundColor: 'rgba(188, 38, 155, 0.05)',
+          backgroundColor: 'rgba(213, 13, 101, 0.05)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -234,7 +234,7 @@ export function ConnectedPlatform() {
               }}
             >
               Managing a salon often means switching between appointments, customers, staff,
-              billing, inventory, and business reports. GlowSuite brings your day-to-day
+              billing, inventory, and business reports. Saloenza brings your day-to-day
               operations into one connected salon management system, giving you a clearer view
               of your business and the tools to manage it efficiently.
             </p>
@@ -249,7 +249,7 @@ export function ConnectedPlatform() {
         <div
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
           role="list"
-          aria-label="GlowSuite platform capabilities"
+          aria-label="Saloenza platform capabilities"
         >
           {capabilities.map((cap, i) => (
             <FadeUp

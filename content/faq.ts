@@ -1,5 +1,5 @@
 /**
- * GlowSuite — FAQ Content
+ * Saloenza — FAQ Content
  *
  * Structured data for the FAQ section.
  * Final answers to be written in a future step.
@@ -16,7 +16,7 @@ export interface FAQItem {
 export const faqs: FAQItem[] = [
   {
     id: 'faq-1',
-    question: 'Is GlowSuite suitable for a single-location salon?',
+    question: 'Is Saloenza suitable for a single-location salon?',
     answer: 'Placeholder — final answer to be written.',
   },
   {
@@ -26,7 +26,7 @@ export const faqs: FAQItem[] = [
   },
   {
     id: 'faq-3',
-    question: 'How does GlowSuite handle billing and payments?',
+    question: 'How does Saloenza handle billing and payments?',
     answer: 'Placeholder — final answer to be written.',
   },
   {

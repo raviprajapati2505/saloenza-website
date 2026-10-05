@@ -1,5 +1,5 @@
 /**
- * Server-side availability rules & slot calculation for GlowSuite Book a Demo.
+ * Server-side availability rules & slot calculation for Saloenza Book a Demo.
  * 
  * Rules:
  * - Timezone: Asia/Kolkata (IST, UTC+05:30)

@@ -1,5 +1,5 @@
 /**
- * GlowSuite — Navigation Content
+ * Saloenza — Navigation Content
  *
  * Centralized nav link structure.
  */
@@ -19,12 +19,12 @@ export interface NavGroup {
 /** Primary navigation links */
 export const navLinks: NavLink[] = [
   { label: 'Features',       href: '/salon-management-software' },
-  { label: 'Why GlowSuite',  href: '/why-glowsuite'      },
+  { label: 'Why Saloenza',  href: '/why-saloenza'      },
 ];
 
 /** CTA buttons in the navbar */
 export const navCTAs = {
-  secondary: { label: 'Sign In',       href: 'https://app.glowsuite.in/login' },
+  secondary: { label: 'Sign In',       href: 'https://app.saloenza.com/login' },
   primary:   { label: 'Book a Demo',   href: '/book-a-demo' },
 } as const;
 

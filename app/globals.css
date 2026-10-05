@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   GLOWSUITE DESIGN SYSTEM — globals.css
+   SALOENZA DESIGN SYSTEM — globals.css
    Tailwind v4 @theme block + semantic CSS custom properties.
    ============================================================ */
 
@@ -44,55 +44,55 @@
   --font-primary: 'tt-commons-pro-subset', var(--font-jakarta), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono:    'tt-commons-mono-md', var(--font-mono-label), ui-monospace, monospace;
 
-  /* Core brand accent palette — EXACT APPROVED VALUES */
-  --gs-pink:    #BC269B;   /* Approved primary button/accent color */
-  --gs-purple:  #8B3FD8;
-  --gs-blue:    #0751FA;
+  /* Core brand accent palette — taken from the Saloenza logo */
+  --gs-pink:    #d50d65;   /* Magenta */
+  --gs-purple:  #3e2778;   /* Purple */
+  --gs-blue:    #3e2778;   /* Alias of brand purple */
 
   /* Button Tokens */
-  --button-primary:           #BC269B;
+  --button-primary:           #d50d65;
   --button-primary-text:      #FFFFFF;
   --button-secondary-bg:      #FFFFFF;
-  --button-secondary-text:    #BC269B;
-  --button-secondary-border:  #BC269B;
+  --button-secondary-text:    #d50d65;
+  --button-secondary-border:  #d50d65;
 
   /* Brand gradient — the exact approved 9-stop horizontal gradient */
   --gs-gradient-hero: linear-gradient(
     90deg,
-    #D5D4FB 0%,
-    #DCCAF8 12.5%,
-    #E5CAF2 25%,
-    #F0CCEB 37.5%,
-    #F9CEE5 50%,
-    #FCD2DF 62.5%,
-    #FCD7DA 75%,
-    #FCD7DA 87.5%,
-    #FDDED2 100%
+    #EDE8F7 0%,
+    #F0E2F3 12.5%,
+    #F4DCEC 25%,
+    #F7D6E6 37.5%,
+    #F9D0E0 50%,
+    #FAD0DC 62.5%,
+    #FBD4DE 75%,
+    #F8D8E2 87.5%,
+    #F6E0E6 100%
   );
-  /* UI gradient for accents (tabs, decorative) — still purple→blue range */
-  --gs-gradient: linear-gradient(135deg, #BC269B 0%, #8B3FD8 50%, #0751FA 100%);
-  --gs-gradient-subtle: linear-gradient(135deg, rgba(188,38,155,0.12) 0%, rgba(139,63,216,0.10) 50%, rgba(7,81,250,0.12) 100%);
+  /* UI gradient for accents — purple to magenta */
+  --gs-gradient: linear-gradient(135deg, #3e2778 0%, #8a1a6f 50%, #d50d65 100%);
+  --gs-gradient-subtle: linear-gradient(135deg, rgba(62,39,120,0.14) 0%, rgba(138,26,111,0.08) 50%, rgba(213,13,101,0.12) 100%);
 
   /* ---- Semantic Background Tokens ---- */
   --bg-page:      #FFFFFF;    /* Clean white main background */
   --bg-elevated:  #FFFFFF;    /* White cards, modals */
-  --bg-subtle:    #FBF0F9;    /* Very subtle pink tint for hover/alternates */
-  --bg-dark:      #0F0F14;    /* Dark sections, footer */
+  --bg-subtle:    #FBF2F6;    /* Soft magenta tint for hover and alternates */
+  --bg-dark:      #160E28;    /* Deep purple for footer and dark sections */
 
   /* Brand-tinted section backgrounds */
-  --bg-brand-tint: linear-gradient(135deg, rgba(213,212,251,0.18) 0%, rgba(220,202,248,0.18) 50%, rgba(255,255,255,1) 100%);
-  --bg-cta:        linear-gradient(135deg, rgba(188,38,155,0.03) 0%, rgba(139,63,216,0.02) 50%, rgba(255,255,255,1) 100%);
+  --bg-brand-tint: linear-gradient(135deg, rgba(62,39,120,0.10) 0%, rgba(213,13,101,0.06) 55%, rgba(255,255,255,1) 100%);
+  --bg-cta:        linear-gradient(135deg, rgba(62,39,120,0.04) 0%, rgba(213,13,101,0.05) 50%, rgba(255,255,255,1) 100%);
 
-  /* ---- Semantic Text Tokens — EXACT APPROVED VALUES ---- */
-  --text-primary:   #191E49;  /* APPROVED: exact primary text color */
-  --text-secondary: #4B5070;  /* Softer indigo family for body copy */
-  --text-muted:     #777C98;  /* Captions, labels */
+  /* ---- Semantic Text Tokens ---- */
+  --text-primary:   #24183F;  /* Deep brand purple for headings and UI text */
+  --text-secondary: #534868;  /* Muted purple for body copy */
+  --text-muted:     #7C7390;  /* Captions, labels */
   --text-inverse:   #FFFFFF;  /* Text on dark backgrounds */
 
   /* ---- UI Control Tokens ---- */
-  --border:        rgba(25, 30, 73, 0.08);   /* Standard border, navy-tinted */
-  --border-subtle: rgba(25, 30, 73, 0.05);   /* Very light dividers */
-  --focus:         #BC269B;                  /* Focus ring = approved primary */
+  --border:        rgba(36, 24, 63, 0.10);
+  --border-subtle: rgba(36, 24, 63, 0.06);
+  --focus:         #d50d65;                  /* Focus ring = approved primary */
   --color-success: #166534;
   --color-error:   #B91C1C;
 
@@ -104,9 +104,9 @@
 
   /* ---- Shadow Tokens ---- */
   --shadow-sm:    0 2px 8px rgba(25,30,73,0.04);
-  --shadow-md:    0 4px 14px rgba(188,38,155,0.06), 0 2px 6px rgba(25,30,73,0.03);
+  --shadow-md:    0 4px 14px rgba(213,13,101,0.06), 0 2px 6px rgba(25,30,73,0.03);
   --shadow-lg:    0 12px 32px rgba(25,30,73,0.08), 0 4px 12px rgba(25,30,73,0.04);
-  --shadow-brand: 0 4px 14px rgba(188,38,155,0.12);  /* Primary button shadow */
+  --shadow-brand: 0 4px 14px rgba(213,13,101,0.12);  /* Primary button shadow */
 }
 
 /* ---- 2. TAILWIND v4 THEME TOKENS -------------------------- */
@@ -378,31 +378,31 @@ p {
 
 /* 1. Primary — Solid Magenta */
 .btn-primary {
-  background-color: #BC269B;
+  background-color: #d50d65;
   color: #FFFFFF;
   border-radius: 9999px;
   box-shadow: var(--shadow-brand);
 }
 
 .btn-primary:hover {
-  background-color: #A91F8B; /* Darker hover state based on #BC269B */
+  background-color: #b00b54; /* Darker hover state based on #d50d65 */
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(188, 38, 155, 0.20);
+  box-shadow: 0 6px 20px rgba(213, 13, 101, 0.20);
 }
 
 /* 2. Secondary — White background, magenta border */
 .btn-secondary {
   background-color: #FFFFFF;
-  color: #BC269B;
-  border: 1.5px solid #BC269B;
+  color: #d50d65;
+  border: 1.5px solid #d50d65;
   border-radius: 9999px;
   padding: 12.5px 26px; /* Offset the 1.5px border */
 }
 
 .btn-secondary:hover {
-  background-color: #FBF0F9; /* Very subtle pink tint hover */
+  background-color: #FBF2F6; /* Very subtle pink tint hover */
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(188, 38, 155, 0.10);
+  box-shadow: 0 4px 14px rgba(213, 13, 101, 0.10);
 }
 
 /* 3. Ghost / Outline button */
@@ -421,16 +421,16 @@ p {
 .btn-gradient {
   background: var(--gs-gradient);
   color: #fff;
-  box-shadow: 0 4px 14px rgba(188,38,155,0.15);
+  box-shadow: 0 4px 14px rgba(213,13,101,0.15);
   border: none;
 }
 
 .btn-gradient:hover {
-  box-shadow: 0 6px 20px rgba(188,38,155,0.25);
+  box-shadow: 0 6px 20px rgba(213,13,101,0.25);
   transform: translateY(-1px);
 }
 
-/* 5. Exact GlowSuite Hero Background Gradient */
+/* 5. Exact Saloenza Hero Background Gradient */
 .hero-background-gradient {
   position: absolute;
   inset: 0 0 auto 0;
@@ -439,15 +439,15 @@ p {
 
   background: linear-gradient(
     90deg,
-    #D5D4FB 0%,
-    #DCCAF8 12.5%,
-    #E5CAF2 25%,
-    #F0CCEB 37.5%,
-    #F9CEE5 50%,
-    #FCD2DF 62.5%,
-    #FCD7DA 75%,
-    #FCD7DA 87.5%,
-    #FDDED2 100%
+    #EDE8F7 0%,
+    #F0E2F3 12.5%,
+    #F4DCEC 25%,
+    #F7D6E6 37.5%,
+    #F9D0E0 50%,
+    #FAD0DC 62.5%,
+    #FBD4DE 75%,
+    #F8D8E2 87.5%,
+    #F6E0E6 100%
   );
 
   -webkit-mask:
@@ -573,15 +573,14 @@ p {
 
 /* ---- 10. SELECTION ---------------------------------------- */
 ::selection {
-  background-color: rgba(139, 63, 216, 0.18);
+  background-color: rgba(62, 39, 120, 0.18);
   color: var(--text-primary);
 }
 
 /* ---- 11. HASH NAVIGATION SCROLL OFFSET ------------------- */
-/* Prevents the sticky header (68px) from obscuring scroll targets.
-   Using 80px = header height + comfortable 12px breathing room.  */
+/* Prevents the sticky header (76px) from obscuring scroll targets. */
 html {
-  scroll-padding-top: 80px;
+  scroll-padding-top: 92px;
 }
 
 @keyframes float {

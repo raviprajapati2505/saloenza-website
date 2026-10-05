@@ -23,9 +23,9 @@ const benefits = [
 ] as const;
 
 // ─────────────────────────────────────────────────────────────
-// WhyGlowSuite Section
+// WhySaloenza Section
 // ─────────────────────────────────────────────────────────────
-export function WhyGlowSuite() {
+export function WhySaloenza() {
   return (
     <section
       aria-labelledby="why-heading"

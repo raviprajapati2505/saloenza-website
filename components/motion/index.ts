@@ -1,5 +1,5 @@
 /**
- * GlowSuite Motion System — barrel export
+ * Saloenza Motion System — barrel export
  *
  * Import motion components from this file:
  *   import { FadeUp, FadeIn, ScaleReveal, StaggeredGroup } from '@/components/motion';

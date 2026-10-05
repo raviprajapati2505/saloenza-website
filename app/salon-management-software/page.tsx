@@ -4,14 +4,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Management Software for Modern Salons | GlowSuite',
+  title: 'Salon Management Software for Modern Salons | Saloenza',
   description:
-    'Manage appointments, clients, staff, billing, inventory, reporting, and more with GlowSuite salon management software built for modern salons.',
+    'Manage appointments, clients, staff, billing, inventory, reporting, and more with Saloenza salon management software built for modern salons.',
   alternates: {
-    canonical: 'https://glowsuite.in/salon-management-software',
+    canonical: 'https://saloenza.com/salon-management-software',
   },
 };
 
@@ -33,7 +33,7 @@ export default function SalonManagementSoftwarePage() {
         name: 'Why should I switch to a connected salon platform?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Using a connected platform like GlowSuite means you no longer have to jump between disconnected calendars, spreadsheets, and payment apps. Data flows naturally from the first booking to the end-of-day report, reducing manual work and giving you perfect clarity into your business performance.',
+          text: 'Using a connected platform like Saloenza means you no longer have to jump between disconnected calendars, spreadsheets, and payment apps. Data flows naturally from the first booking to the end-of-day report, reducing manual work and giving you perfect clarity into your business performance.',
         },
       },
       {
@@ -41,7 +41,7 @@ export default function SalonManagementSoftwarePage() {
         name: 'Can I manage multiple salon locations?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes. GlowSuite allows you to standardize services across branches, share staff schedules securely, and monitor cross-location performance from a centralized control panel.',
+          text: 'Yes. Saloenza allows you to standardize services across branches, share staff schedules securely, and monitor cross-location performance from a centralized control panel.',
         },
       },
     ],
@@ -50,10 +50,10 @@ export default function SalonManagementSoftwarePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Management Software for Modern Salons | GlowSuite',
+    name: 'Salon Management Software for Modern Salons | Saloenza',
     description:
-      'Manage appointments, clients, staff, billing, inventory, reporting, and more with GlowSuite salon management software built for modern salons.',
-    url: 'https://glowsuite.in/salon-management-software',
+      'Manage appointments, clients, staff, billing, inventory, reporting, and more with Saloenza salon management software built for modern salons.',
+    url: 'https://saloenza.com/salon-management-software',
   };
 
   return (
@@ -68,11 +68,11 @@ export default function SalonManagementSoftwarePage() {
       />
 
       <EditorialHero
-        eyebrow="GLOWSUITE PLATFORM"
+        eyebrow="SALOENZA PLATFORM"
         title="Salon Management Software for Modern Salons"
-        description="Manage appointments, clients, staff, billing, inventory, reporting, and more with GlowSuite. Build a better experience for your team and your customers."
+        description="Manage appointments, clients, staff, billing, inventory, reporting, and more with Saloenza. Build a better experience for your team and your customers."
         imageSrc="/images/product/dashboard.webp"
-        imageAlt="GlowSuite Salon Management Software Dashboard"
+        imageAlt="Saloenza Salon Management Software Dashboard"
         floatingCards={[
           {
             icon: (
@@ -230,7 +230,7 @@ export default function SalonManagementSoftwarePage() {
           <div className="max-w-[760px] mx-auto text-center">
             <FadeUp delay={0}>
               <h2 className="text-h2 font-normal leading-tight text-[var(--text-primary)] mb-6">
-                Why GlowSuite?
+                Why Saloenza?
               </h2>
             </FadeUp>
             <FadeUp delay={100}>
@@ -238,7 +238,7 @@ export default function SalonManagementSoftwarePage() {
                 When your entire salon operates on a single salon business management software, data flows naturally from one step to the next. You eliminate the friction of switching between a separate booking app, a generic payment processor, and manual inventory spreadsheets.
               </p>
               <p className="text-[1.125rem] text-[var(--text-secondary)] leading-relaxed font-normal" style={{ fontFamily: "var(--font-primary)" }}>
-                GlowSuite brings everything together. A connected platform reduces manual administrative work, eliminates double-entry errors, and gives you perfect clarity into your business—so you can spend less time managing software and more time focused on your clients.
+                Saloenza brings everything together. A connected platform reduces manual administrative work, eliminates double-entry errors, and gives you perfect clarity into your business—so you can spend less time managing software and more time focused on your clients.
               </p>
             </FadeUp>
           </div>
@@ -278,14 +278,14 @@ export default function SalonManagementSoftwarePage() {
                   className="p-8 rounded-[20px]"
                   style={{
                     backgroundColor: 'var(--bg-page)',
-                    border: '1px solid rgba(139, 63, 216, 0.08)',
+                    border: '1px solid rgba(62, 39, 120, 0.08)',
                   }}
                 >
                   <h3 className="text-[1.25rem] font-semibold mb-3 text-[var(--text-primary)]" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
                     Why should I switch to a connected salon platform?
                   </h3>
                   <p className="text-[1.0625rem] text-[var(--text-secondary)] leading-relaxed" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                    Using a connected platform like GlowSuite means you no longer have to jump between disconnected calendars, spreadsheets, and payment apps. Data flows naturally from the first booking to the end-of-day report, reducing manual work and giving you perfect clarity into your business performance.
+                    Using a connected platform like Saloenza means you no longer have to jump between disconnected calendars, spreadsheets, and payment apps. Data flows naturally from the first booking to the end-of-day report, reducing manual work and giving you perfect clarity into your business performance.
                   </p>
                 </div>
               </FadeUp>
@@ -295,14 +295,14 @@ export default function SalonManagementSoftwarePage() {
                   className="p-8 rounded-[20px]"
                   style={{
                     backgroundColor: 'var(--bg-page)',
-                    border: '1px solid rgba(139, 63, 216, 0.08)',
+                    border: '1px solid rgba(62, 39, 120, 0.08)',
                   }}
                 >
                   <h3 className="text-[1.25rem] font-semibold mb-3 text-[var(--text-primary)]" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
                     Can I manage multiple salon locations?
                   </h3>
                   <p className="text-[1.0625rem] text-[var(--text-secondary)] leading-relaxed" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                    Yes. GlowSuite allows you to standardize services across branches, share staff schedules securely, and monitor cross-location performance from a centralized control panel.
+                    Yes. Saloenza allows you to standardize services across branches, share staff schedules securely, and monitor cross-location performance from a centralized control panel.
                   </p>
                 </div>
               </FadeUp>
@@ -311,8 +311,8 @@ export default function SalonManagementSoftwarePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Get started with GlowSuite today."
+      <SaloenzaCTA 
+        title="Get started with Saloenza today."
         subtitle="Bring your appointments, clients, payments, staff, inventory, and reporting together in one modern platform."
       />
     </>

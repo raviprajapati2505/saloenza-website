@@ -82,7 +82,7 @@ export function ProductStorySection({
                 {features.map((feature, idx) => (
                   <FadeUp key={idx} delay={300 + idx * 50}>
                     <li className="flex items-start gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-[var(--radius-sm)] bg-[rgba(188,38,155,0.06)] text-[var(--gs-pink)] flex items-center justify-center mt-1">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-[var(--radius-sm)] bg-[rgba(213,13,101,0.06)] text-[var(--gs-pink)] flex items-center justify-center mt-1">
                         {feature.icon}
                       </div>
                       <div className="text-[1rem] leading-relaxed text-[var(--text-primary)] font-normal" style={{ fontFamily: "var(--font-primary)" }}>

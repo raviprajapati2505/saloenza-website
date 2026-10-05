@@ -3,14 +3,14 @@ import { Container } from '@/components/ui/Container';
 import { FadeUp } from '@/components/motion';
 import { EditorialHero } from '@/components/sections/EditorialHero';
 import { ProductStorySection } from '@/components/sections/ProductStorySection';
-import { GlowSuiteCTA } from '@/components/sections/GlowSuiteCTA';
+import { SaloenzaCTA } from '@/components/sections/SaloenzaCTA';
 
 export const metadata: Metadata = {
-  title: 'Salon Billing Software & POS System | GlowSuite',
+  title: 'Salon Billing Software & POS System | Saloenza',
   description:
-    'Simplify salon billing and checkout with GlowSuite. Manage transactions, point of sale, and connected business operations from one salon platform.',
+    'Simplify salon billing and checkout with Saloenza. Manage transactions, point of sale, and connected business operations from one salon platform.',
   alternates: {
-    canonical: 'https://glowsuite.in/features/billing-pos',
+    canonical: 'https://saloenza.com/features/billing-pos',
   },
 };
 
@@ -32,7 +32,7 @@ export default function BillingPosFeaturePage() {
         name: 'How does the POS connect with appointments?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Because GlowSuite is a connected platform, an appointment automatically transitions into a checkout ticket at the front desk. This eliminates the need to manually re-enter service details or client information into a separate billing system.',
+          text: 'Because Saloenza is a connected platform, an appointment automatically transitions into a checkout ticket at the front desk. This eliminates the need to manually re-enter service details or client information into a separate billing system.',
         },
       },
       {
@@ -49,10 +49,10 @@ export default function BillingPosFeaturePage() {
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Salon Billing Software & POS System | GlowSuite',
+    name: 'Salon Billing Software & POS System | Saloenza',
     description:
-      'Simplify salon billing and checkout with GlowSuite. Manage transactions, point of sale, and connected business operations from one salon platform.',
-    url: 'https://glowsuite.in/features/billing-pos',
+      'Simplify salon billing and checkout with Saloenza. Manage transactions, point of sale, and connected business operations from one salon platform.',
+    url: 'https://saloenza.com/features/billing-pos',
   };
 
   return (
@@ -71,7 +71,7 @@ export default function BillingPosFeaturePage() {
         title="Simple, Connected Salon Billing"
         description="Simplify the checkout experience and manage daily transactions effortlessly. Say goodbye to disconnected card terminals and manual entry with our unified salon POS software."
         imageSrc="/images/product/billing-pos.webp"
-        imageAlt="GlowSuite Salon Billing Software and Point of Sale Checkout"
+        imageAlt="Saloenza Salon Billing Software and Point of Sale Checkout"
         floatingCards={[
           {
             icon: (
@@ -97,7 +97,7 @@ export default function BillingPosFeaturePage() {
       <ProductStorySection
         eyebrow="SMART CHECKOUT"
         title="Keep Every Checkout Organized"
-        description="End the confusion at the front desk. GlowSuite allows you to easily process services and retail items together on a single ticket. The intuitive billing workflow ensures your front desk staff can complete checkouts swiftly, giving clients a polished, professional exit."
+        description="End the confusion at the front desk. Saloenza allows you to easily process services and retail items together on a single ticket. The intuitive billing workflow ensures your front desk staff can complete checkouts swiftly, giving clients a polished, professional exit."
         imageSrc="/images/product/billing-pos.webp"
         imageAlt="Salon checkout process"
         backgroundColor="var(--bg-page)"
@@ -171,7 +171,7 @@ export default function BillingPosFeaturePage() {
                     How does the POS connect with appointments?
                   </h3>
                   <p className="text-[1.0625rem] text-[var(--text-secondary)] leading-relaxed" style={{ fontFamily: "'tt-commons-pro-subset', sans-serif" }}>
-                    Because GlowSuite is a connected platform, an appointment automatically transitions into a checkout ticket at the front desk. This eliminates the need to manually re-enter service details or client information into a separate billing system.
+                    Because Saloenza is a connected platform, an appointment automatically transitions into a checkout ticket at the front desk. This eliminates the need to manually re-enter service details or client information into a separate billing system.
                   </p>
                 </div>
               </FadeUp>
@@ -197,8 +197,8 @@ export default function BillingPosFeaturePage() {
         </Container>
       </section>
 
-      <GlowSuiteCTA 
-        title="Streamline your checkout with GlowSuite."
+      <SaloenzaCTA 
+        title="Streamline your checkout with Saloenza."
       />
     </>
   );

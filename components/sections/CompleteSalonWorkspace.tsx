@@ -89,7 +89,7 @@ export function CompleteSalonWorkspace() {
           </FadeUp>
           <FadeUp delay={160}>
             <p className="text-body-lg text-[var(--text-secondary)] font-normal">
-              GlowSuite connects the everyday tools your salon team relies on—from appointments and clients to billing, staff, inventory, and reporting.
+              Saloenza connects the everyday tools your salon team relies on—from appointments and clients to billing, staff, inventory, and reporting.
             </p>
           </FadeUp>
         </div>
@@ -115,7 +115,7 @@ export function CompleteSalonWorkspace() {
                   <div className="group flex flex-col items-start gap-3 p-4 -ml-4 rounded-xl transition-colors duration-200 hover:bg-black/[0.03]">
                     <div 
                       className="flex items-center justify-center w-10 h-10 rounded-lg text-[var(--gs-purple)] transition-transform duration-200 group-hover:scale-105"
-                      style={{ backgroundColor: 'rgba(139,63,216,0.08)' }}
+                      style={{ backgroundColor: 'rgba(62,39,120,0.08)' }}
                     >
                       {item.icon}
                     </div>
@@ -141,7 +141,7 @@ export function CompleteSalonWorkspace() {
               aria-hidden="true"
               className="absolute inset-0 z-0 pointer-events-none hidden lg:block"
               style={{
-                background: 'linear-gradient(135deg, rgba(241,14,153,0.06) 0%, rgba(139,63,216,0.05) 50%, rgba(7,81,250,0.06) 100%)',
+                background: 'linear-gradient(135deg, rgba(213,13,101,0.06) 0%, rgba(62,39,120,0.05) 50%, rgba(62,39,120,0.06) 100%)',
                 filter: 'blur(80px)',
                 borderRadius: '50%',
                 transform: 'scale(0.9) translate(10%, -10%)',
@@ -155,7 +155,7 @@ export function CompleteSalonWorkspace() {
             <FadeIn delay={300} className="relative z-10 w-full lg:absolute lg:top-0 lg:right-0 lg:w-[85%] order-1 mb-8 lg:mb-0">
               <ProductFrame
                 src="/images/product/reports.webp"
-                alt="GlowSuite business reporting and analytics dashboard"
+                alt="Saloenza business reporting and analytics dashboard"
                 width={2000}
                 height={1125}
                 shadow
@@ -168,7 +168,7 @@ export function CompleteSalonWorkspace() {
               <div className="lg:transform lg:-rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
                   src="/images/product/staff.webp"
-                  alt="GlowSuite staff management and schedules"
+                  alt="Saloenza staff management and schedules"
                   width={2000}
                   height={1125}
                   shadow
@@ -182,7 +182,7 @@ export function CompleteSalonWorkspace() {
               <div className="lg:transform lg:rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-40 hover:scale-[1.02]">
                 <ProductFrame
                   src="/images/product/inventory.webp"
-                  alt="GlowSuite salon inventory tracking"
+                  alt="Saloenza salon inventory tracking"
                   width={2000}
                   height={1125}
                   shadow

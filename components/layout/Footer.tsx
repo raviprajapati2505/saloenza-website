@@ -108,18 +108,18 @@ export function Footer() {
               aria-hidden="true" 
               className="absolute -top-12 -left-12 w-[150%] h-[150%] z-[-1] pointer-events-none rounded-full"
               style={{
-                background: 'radial-gradient(circle at center, rgba(188, 38, 155, 0.12) 0%, rgba(139, 63, 216, 0.04) 40%, transparent 70%)',
+                background: 'radial-gradient(circle at center, rgba(213, 13, 101, 0.12) 0%, rgba(62, 39, 120, 0.04) 40%, transparent 70%)',
                 filter: 'blur(40px)',
               }}
             />
 
-            <Link href="/" aria-label="GlowSuite home" className="inline-block w-fit focus-visible:outline-2 focus-visible:outline-white/80 focus-visible:outline-offset-4 rounded-[4px]">
+            <Link href="/" aria-label="Saloenza home" className="inline-flex w-fit items-center rounded-xl bg-white px-3 py-2 focus-visible:outline-2 focus-visible:outline-white/80 focus-visible:outline-offset-4">
               <Image
-                src="/brand/logo-trimmed.png"
-                alt="GlowSuite"
-                width={180}
-                height={42}
-                className="h-10 md:h-[42px] w-auto brightness-0 invert"
+                src="/brand/saloenza-logo.png"
+                alt="Saloenza"
+                width={188}
+                height={52}
+                className="h-11 w-auto object-contain"
               />
             </Link>
             
@@ -133,7 +133,7 @@ export function Footer() {
                 <Link
                   key={social.icon}
                   href={social.href}
-                  aria-label={`GlowSuite on ${social.label}`}
+                  aria-label={`Saloenza on ${social.label}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white/80 hover:text-white hover:bg-[var(--gs-pink)] hover:scale-105 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-[var(--gs-pink)] focus-visible:outline-offset-2"
@@ -153,7 +153,7 @@ export function Footer() {
         {/* Bottom bar: copyright + legal */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pt-8 border-t border-white/10">
           <p className="text-[0.875rem] text-white/50">
-            &copy; {year} GlowSuite. All rights reserved.
+            &copy; {year} Saloenza. All rights reserved.
           </p>
 
           <nav aria-label="Legal links" className="flex items-center gap-6">

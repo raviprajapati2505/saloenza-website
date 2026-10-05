@@ -73,7 +73,7 @@ export function TimeSlotSelector({
         <button
           type="button"
           onClick={onBack}
-          className="inline-flex items-center gap-2 text-[0.875rem] font-medium text-[var(--text-secondary)] hover:text-[#BC269B] transition-colors focus-visible:outline-2 focus-visible:outline-[var(--focus)] rounded-md"
+          className="inline-flex items-center gap-2 text-[0.875rem] font-medium text-[var(--text-secondary)] hover:text-[#d50d65] transition-colors focus-visible:outline-2 focus-visible:outline-[var(--focus)] rounded-md"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -91,9 +91,9 @@ export function TimeSlotSelector({
       </div>
 
       {/* Selected Date Callout */}
-      <div className="mb-6 p-4 rounded-[16px] bg-[#FBF0F9] border border-[rgba(188,38,155,0.15)] flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+      <div className="mb-6 p-4 rounded-[16px] bg-[#FBF2F6] border border-[rgba(213,13,101,0.15)] flex flex-col sm:flex-row sm:items-center justify-between gap-2">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-[#BC269B] shadow-sm flex-shrink-0">
+          <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-[#d50d65] shadow-sm flex-shrink-0">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
               <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -171,8 +171,8 @@ export function TimeSlotSelector({
 
       {/* No Available Slots State */}
       {!isLoading && !error && !hasAnyAvailableSlots && (
-        <div className="mb-8 p-8 rounded-[16px] bg-[#FBF0F9]/60 border border-[rgba(188,38,155,0.15)] text-center">
-          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-[#BC269B] shadow-sm mx-auto mb-3">
+        <div className="mb-8 p-8 rounded-[16px] bg-[#FBF2F6]/60 border border-[rgba(213,13,101,0.15)] text-center">
+          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-[#d50d65] shadow-sm mx-auto mb-3">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <line x1="12" y1="8" x2="12" y2="12"></line>
@@ -235,14 +235,14 @@ export function TimeSlotSelector({
                   focus-visible:outline-2 focus-visible:outline-[var(--focus)] focus-visible:outline-offset-2
                   ${
                     isSelected
-                      ? 'bg-[#BC269B] text-white font-medium border border-[#BC269B] shadow-[0_4px_14px_rgba(188,38,155,0.25)] scale-[1.01]'
-                      : 'bg-white text-[var(--text-primary)] border border-[var(--border)] hover:border-[rgba(188,38,155,0.4)] hover:bg-[#FBF0F9] hover:text-[#BC269B]'
+                      ? 'bg-[#d50d65] text-white font-medium border border-[#d50d65] shadow-[0_4px_14px_rgba(213,13,101,0.25)] scale-[1.01]'
+                      : 'bg-white text-[var(--text-primary)] border border-[var(--border)] hover:border-[rgba(213,13,101,0.4)] hover:bg-[#FBF2F6] hover:text-[#d50d65]'
                   }
                 `}
                 style={{ fontFamily: 'var(--font-primary)' }}
               >
                 <div className="flex items-center gap-2.5">
-                  <span className={`w-2 h-2 rounded-full ${isSelected ? 'bg-white' : 'bg-[#BC269B]'}`} />
+                  <span className={`w-2 h-2 rounded-full ${isSelected ? 'bg-white' : 'bg-[#d50d65]'}`} />
                   <span className="text-[0.9375rem] font-medium">{slot.label}</span>
                 </div>
                 <span className={`text-[0.8125rem] ${isSelected ? 'text-white/80' : 'text-[var(--text-muted)]'}`}>

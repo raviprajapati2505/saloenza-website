@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import { PrismaClient } from '@prisma/client';
 
 console.log('====================================================');
-console.log('GLOWSUITE BOOK A DEMO — PHASE 2 VERIFICATION');
+console.log('SALOENZA BOOK A DEMO — PHASE 2 VERIFICATION');
 console.log('====================================================\n');
 
 // ----------------------------------------------------
@@ -11,7 +11,7 @@ console.log('====================================================\n');
 console.log('[1/4] Testing AES-256-GCM Encryption & Decryption...');
 
 // Set a fallback test key if not set in environment
-const testKey = process.env.GOOGLE_TOKEN_ENCRYPTION_KEY || 'test-secret-encryption-key-for-glowsuite-32b!';
+const testKey = process.env.GOOGLE_TOKEN_ENCRYPTION_KEY || 'test-secret-encryption-key-for-saloenza-32b!';
 const keyBuffer = crypto.createHash('sha256').update(testKey, 'utf-8').digest();
 
 function encryptTest(plaintext) {

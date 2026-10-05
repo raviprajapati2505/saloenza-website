@@ -26,7 +26,7 @@ export function ProductProof() {
           
           <FadeUp delay={160}>
             <p className="text-body-lg text-[var(--text-secondary)] font-normal mx-auto">
-              From the front desk to daily operations, GlowSuite brings the tools your salon needs into one connected workspace.
+              From the front desk to daily operations, Saloenza brings the tools your salon needs into one connected workspace.
             </p>
           </FadeUp>
         </div>
@@ -39,7 +39,7 @@ export function ProductProof() {
             aria-hidden="true"
             className="absolute inset-0 z-0 pointer-events-none hidden md:block"
             style={{
-              background: 'linear-gradient(135deg, rgba(241,14,153,0.08) 0%, rgba(139,63,216,0.06) 50%, rgba(7,81,250,0.08) 100%)',
+              background: 'linear-gradient(135deg, rgba(213,13,101,0.08) 0%, rgba(62,39,120,0.06) 50%, rgba(62,39,120,0.08) 100%)',
               filter: 'blur(80px)',
               borderRadius: '50%',
               transform: 'scale(1.1) translateY(10%)',
@@ -53,7 +53,7 @@ export function ProductProof() {
               <ScaleReveal from={0.97} duration={700}>
                 <ProductFrame
                   src="/images/product/appointments.webp"
-                  alt="GlowSuite Smart Appointments Calendar"
+                  alt="Saloenza Smart Appointments Calendar"
                   width={2000}
                   height={1125}
                   priority
@@ -67,7 +67,7 @@ export function ProductProof() {
               <div className="md:transform md:-rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
                   src="/images/product/clients.webp"
-                  alt="GlowSuite Client Profiles"
+                  alt="Saloenza Client Profiles"
                   width={2000}
                   height={1125}
                   className="shadow-[0_16px_32px_-8px_rgba(0,0,0,0.12)] ring-1 ring-black/5"
@@ -80,7 +80,7 @@ export function ProductProof() {
               <div className="md:transform md:rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
                   src="/images/product/billing-pos.webp"
-                  alt="GlowSuite POS and Billing Interface"
+                  alt="Saloenza POS and Billing Interface"
                   width={2000}
                   height={1125}
                   className="shadow-[0_16px_32px_-8px_rgba(0,0,0,0.12)] ring-1 ring-black/5"

@@ -13,7 +13,7 @@ const items = [
   },
   {
     number: '03',
-    title: 'Live GlowSuite walkthrough',
+    title: 'Live Saloenza walkthrough',
     description: 'See the connected platform tailored to how your stylists, reception, and managers work.',
   },
   {
@@ -53,7 +53,7 @@ export function BookingWhatWeCover() {
             fontWeight: 400,
           }}
         >
-          See GlowSuite in action.
+          See Saloenza in action.
         </h1>
       </FadeUp>
 
@@ -66,7 +66,7 @@ export function BookingWhatWeCover() {
             lineHeight: 1.55,
           }}
         >
-          Get a personalized walkthrough of GlowSuite and see how it can fit your salon&apos;s daily workflow.
+          Get a personalized walkthrough of Saloenza and see how it can fit your salon&apos;s daily workflow.
         </p>
       </FadeUp>
 

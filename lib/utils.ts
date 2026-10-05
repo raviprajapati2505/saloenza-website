@@ -1,5 +1,5 @@
 /**
- * GlowSuite utility helpers
+ * Saloenza utility helpers
  */
 
 /** Merge class names, filtering falsy values */

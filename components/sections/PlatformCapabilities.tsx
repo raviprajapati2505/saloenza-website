@@ -23,7 +23,7 @@ export function PlatformCapabilities() {
               <div className="relative z-10">
                 <ProductFrame
                   src="/images/product/multi-location.webp"
-                  alt="GlowSuite Multi-Location Management Interface"
+                  alt="Saloenza Multi-Location Management Interface"
                   width={2000}
                   height={1125}
                   shadow
@@ -40,7 +40,7 @@ export function PlatformCapabilities() {
                 Grow from one location to fifty.
               </h2>
               <p className="text-body-lg text-[var(--text-secondary)] mb-5 font-normal">
-                Whether you run a single boutique salon or a growing franchise network, GlowSuite scales effortlessly with your business ambition.
+                Whether you run a single boutique salon or a growing franchise network, Saloenza scales effortlessly with your business ambition.
               </p>
               <p className="text-body text-[var(--text-secondary)]">
                 Standardize services across all your branches, share staff schedules securely, and manage permissions from a centralized control panel. Compare performance and revenue across locations with a single click.
@@ -78,7 +78,7 @@ export function PlatformCapabilities() {
               <div className="relative z-10">
                 <ProductFrame
                   src="/images/product/inventory.webp"
-                  alt="GlowSuite Salon Inventory Management Dashboard"
+                  alt="Saloenza Salon Inventory Management Dashboard"
                   width={2000}
                   height={1125}
                   shadow

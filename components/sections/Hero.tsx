@@ -12,32 +12,32 @@ const CAPABILITIES = [
   {
     label: 'Appointments',
     src: '/images/product/appointments.webp',
-    alt: 'GlowSuite appointment calendar — bookings, availability and staff schedule',
+    alt: 'Saloenza appointment calendar — bookings, availability and staff schedule',
   },
   {
     label: 'Clients',
     src: '/images/product/clients.webp',
-    alt: 'GlowSuite client management — profiles, history and contact details',
+    alt: 'Saloenza client management — profiles, history and contact details',
   },
   {
     label: 'Staff',
     src: '/images/product/staff.webp',
-    alt: 'GlowSuite staff management — team members, schedules and performance',
+    alt: 'Saloenza staff management — team members, schedules and performance',
   },
   {
     label: 'Billing & POS',
     src: '/images/product/billing-pos.webp',
-    alt: 'GlowSuite billing and point-of-sale — invoices, payments and checkout',
+    alt: 'Saloenza billing and point-of-sale — invoices, payments and checkout',
   },
   {
     label: 'Inventory',
     src: '/images/product/inventory.webp',
-    alt: 'GlowSuite inventory — product stock, usage and reorder levels',
+    alt: 'Saloenza inventory — product stock, usage and reorder levels',
   },
   {
     label: 'Reporting',
     src: '/images/product/reports.webp',
-    alt: 'GlowSuite reporting — revenue charts, analytics and business performance',
+    alt: 'Saloenza reporting — revenue charts, analytics and business performance',
   },
 ] as const;
 
@@ -85,8 +85,8 @@ export function Hero() {
         className="hero-background-gradient"
       />
 
-      {/* pt-[112px] md:pt-[132px] compensates for the 68px transparent header sitting above it */}
-      <Container className="relative z-10 pt-[112px] md:pt-[132px] pb-0">
+      {/* Clears the fixed header so the hero title is not covered */}
+      <Container className="relative z-10 pt-[120px] md:pt-[140px] pb-0">
 
         {/* ── Hero Text: eyebrow → H1 → description (NO CTAs) ── */}
         <div className="flex flex-col items-center text-center max-w-[820px] mx-auto mb-4 md:mb-5">
@@ -102,7 +102,7 @@ export function Hero() {
                 fontWeight: 500,
               }}
             >
-              GLOWSUITE SALON MANAGEMENT SOFTWARE
+              SALOENZA SALON MANAGEMENT SOFTWARE
             </p>
           </FadeIn>
 
@@ -147,7 +147,7 @@ export function Hero() {
         <FadeUp delay={210} className="w-full max-w-[860px] mx-auto mb-3 relative z-20">
           <div
             role="tablist"
-            aria-label="GlowSuite platform capabilities"
+            aria-label="Saloenza platform capabilities"
             className="flex flex-wrap items-center justify-center gap-2"
           >
             {CAPABILITIES.map((cap, index) => {
@@ -168,13 +168,13 @@ export function Hero() {
                       ? {
                           background: 'linear-gradient(135deg, var(--gs-pink) 0%, var(--gs-purple) 100%)',
                           color: '#fff',
-                          boxShadow: '0 4px 14px -2px rgba(139,63,216,0.40)',
+                          boxShadow: '0 4px 14px -2px rgba(62,39,120,0.40)',
                           transform: 'translateY(-1px) scale(1.03)',
                         }
                       : {
                           background: 'rgba(255,255,255,0.80)',
                           color: '#2a2a38',
-                          border: '1px solid rgba(139,63,216,0.18)',
+                          border: '1px solid rgba(62,39,120,0.18)',
                           backdropFilter: 'blur(8px)',
                           boxShadow: '0 1px 6px rgba(0,0,0,0.06)',
                         }),
@@ -221,7 +221,7 @@ export function Hero() {
             className="absolute -inset-8 z-[-1] pointer-events-none"
             style={{
               background:
-                'radial-gradient(ellipse 80% 50% at 50% 80%, rgba(139,63,216,0.14) 0%, rgba(241,14,153,0.07) 55%, transparent 80%)',
+                'radial-gradient(ellipse 80% 50% at 50% 80%, rgba(62,39,120,0.14) 0%, rgba(213,13,101,0.07) 55%, transparent 80%)',
               filter: 'blur(48px)',
             }}
           />
@@ -230,7 +230,7 @@ export function Hero() {
           <div
             className="relative rounded-t-[20px] overflow-hidden"
             style={{
-              boxShadow: '0 -4px 40px -8px rgba(139,63,216,0.12), 0 0 0 1px rgba(0,0,0,0.055)',
+              boxShadow: '0 -4px 40px -8px rgba(62,39,120,0.12), 0 0 0 1px rgba(0,0,0,0.055)',
             }}
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
@@ -258,7 +258,7 @@ export function Hero() {
                   <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
-                  app.glowsuite.in
+                  app.saloenza.com
                 </div>
               </div>
             </div>

@@ -63,7 +63,7 @@ export function BookDemoInteractive() {
     <div className="w-full">
       {/* Booking Container */}
       <div
-        className="relative bg-white rounded-[28px] border border-[var(--border-subtle)] shadow-[0_16px_48px_-12px_rgba(25,30,73,0.08),0_4px_16px_rgba(188,38,155,0.04)] p-6 sm:p-8 md:p-10 transition-all duration-300"
+        className="relative bg-white rounded-[28px] border border-[var(--border-subtle)] shadow-[0_16px_48px_-12px_rgba(25,30,73,0.08),0_4px_16px_rgba(213,13,101,0.04)] p-6 sm:p-8 md:p-10 transition-all duration-300"
         style={{ fontFamily: 'var(--font-primary)' }}
       >
         {/* Step Indicator (visible during active booking flow) */}
@@ -73,9 +73,9 @@ export function BookDemoInteractive() {
               <span
                 className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${
                   step === 'date'
-                    ? 'bg-[#BC269B] text-white'
+                    ? 'bg-[#d50d65] text-white'
                     : selectedDate
-                    ? 'bg-[#FBF0F9] text-[#BC269B]'
+                    ? 'bg-[#FBF2F6] text-[#d50d65]'
                     : 'bg-black/5 text-[var(--text-muted)]'
                 }`}
                 style={{ fontFamily: 'var(--font-mono)' }}
@@ -97,9 +97,9 @@ export function BookDemoInteractive() {
               <span
                 className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${
                   step === 'time'
-                    ? 'bg-[#BC269B] text-white'
+                    ? 'bg-[#d50d65] text-white'
                     : selectedTime && step === 'details'
-                    ? 'bg-[#FBF0F9] text-[#BC269B]'
+                    ? 'bg-[#FBF2F6] text-[#d50d65]'
                     : 'bg-black/5 text-[var(--text-muted)]'
                 }`}
                 style={{ fontFamily: 'var(--font-mono)' }}
@@ -121,7 +121,7 @@ export function BookDemoInteractive() {
               <span
                 className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold transition-colors ${
                   step === 'details'
-                    ? 'bg-[#BC269B] text-white'
+                    ? 'bg-[#d50d65] text-white'
                     : 'bg-black/5 text-[var(--text-muted)]'
                 }`}
                 style={{ fontFamily: 'var(--font-mono)' }}

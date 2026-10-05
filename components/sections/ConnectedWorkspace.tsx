@@ -138,7 +138,7 @@ export function ConnectedWorkspace() {
           </FadeUp>
           <FadeUp delay={160}>
             <p className="text-body-lg font-normal" style={{ color: 'var(--text-secondary)' }}>
-              GlowSuite brings appointments, client management, billing, staff, inventory and business insights together in one powerful salon management platform. Spend less time switching between tools and more time growing your salon business.
+              Saloenza brings appointments, client management, billing, staff, inventory and business insights together in one powerful salon management platform. Spend less time switching between tools and more time growing your salon business.
             </p>
           </FadeUp>
         </div>

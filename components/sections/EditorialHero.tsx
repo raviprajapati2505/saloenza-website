@@ -86,7 +86,7 @@ export function EditorialHero({ eyebrow, title, description, imageSrc, imageAlt,
                 href="/#features"
                 className="btn btn-secondary btn-lg"
               >
-                Explore GlowSuite
+                Explore Saloenza
               </Link>
             </div>
           </FadeUp>
@@ -117,7 +117,7 @@ export function EditorialHero({ eyebrow, title, description, imageSrc, imageAlt,
                   }}
                 >
                   {card.icon && (
-                    <div className="w-8 h-8 rounded-[var(--radius-sm)] flex items-center justify-center bg-[rgba(188,38,155,0.06)] text-[var(--gs-pink)]">
+                    <div className="w-8 h-8 rounded-[var(--radius-sm)] flex items-center justify-center bg-[rgba(213,13,101,0.06)] text-[var(--gs-pink)]">
                       {card.icon}
                     </div>
                   )}
