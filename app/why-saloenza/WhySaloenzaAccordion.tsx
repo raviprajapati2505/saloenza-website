@@ -11,35 +11,35 @@ const topics = [
     id: '01',
     title: 'Everything connected',
     content: 'Saloenza connects appointments, clients, billing, staff, inventory, and reporting in one workspace. Instead of moving information between separate tools, your team can manage the daily flow of the salon from one connected platform.',
-    image: '/images/product/dashboard.webp',
+    image: '/images/product/dashboard.png',
     imageAlt: 'Saloenza connected dashboard',
   },
   {
     id: '02',
     title: 'Built around real salon operations',
     content: 'Saloenza is designed around the everyday work that happens inside a salon. Manage bookings, client information, staff operations, billing, inventory, and reporting from tools built to work together.',
-    image: '/images/product/appointments.webp',
+    image: '/images/product/appointments.png',
     imageAlt: 'Salon appointment scheduling interface',
   },
   {
     id: '03',
     title: 'Less switching. Less manual work.',
     content: 'When appointments, clients, billing, inventory, and reporting are connected, your team can avoid repeatedly moving information between disconnected systems. Saloenza keeps important business information connected across everyday operations.',
-    image: '/images/product/billing-pos.webp',
+    image: '/images/product/billing-pos.png',
     imageAlt: 'Integrated POS and billing interface',
   },
   {
     id: '04',
     title: 'Clearer visibility across your business',
     content: 'Saloenza brings operational and business information together so salon owners and managers can understand what is happening across appointments, billing, inventory, staff, and reporting from one connected platform.',
-    image: '/images/product/reports.webp',
+    image: '/images/product/reports.png',
     imageAlt: 'Salon reporting and analytics dashboard',
   },
   {
     id: '05',
     title: 'Ready for multiple locations',
     content: 'Manage multiple salon locations from one connected platform. Standardize operations, coordinate staff access, and understand performance across your branches.',
-    image: '/images/product/multi-location.webp',
+    image: '/images/product/multi-location.png',
     imageAlt: 'Multi-location salon management view',
   },
 ];
@@ -93,7 +93,7 @@ export function WhySaloenzaAccordion() {
             <ScaleReveal from={0.97} duration={700} delay={320}>
               <div className="relative rounded-[var(--radius-product)] bg-[var(--bg-elevated)] p-2 border border-[var(--border-subtle)] shadow-[var(--shadow-md)]">
                 <ProductFrame
-                  src="/images/product/dashboard.webp"
+                  src="/images/product/dashboard.png"
                   alt="Saloenza salon dashboard"
                   width={2000}
                   height={1125}

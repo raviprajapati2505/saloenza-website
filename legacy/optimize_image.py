@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 filename = 'logo-transparent-hq.png'
-out_filename = 'logo-optimized.webp'
+out_filename = 'logo-optimized.png'
 
 try:
     img = Image.open(filename)

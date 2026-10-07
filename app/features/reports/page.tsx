@@ -70,7 +70,7 @@ export default function ReportsFeaturePage() {
         eyebrow="REPORTING & INSIGHTS"
         title="Clear Insights for Your Salon Business"
         description="Replace guesswork with visibility. Track your salon's daily performance and understand your revenue effortlessly with powerful, easy-to-read business reports."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Saloenza Salon Reporting Software and Business Analytics Dashboard"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function ReportsFeaturePage() {
         eyebrow="BUSINESS VISIBILITY"
         title="Understand Your Salon at a Glance"
         description="Log in and instantly see how your salon is performing today. Our salon business reports give you a clear, high-level summary of your most critical metrics the moment you open the dashboard."
-        imageSrc="/images/product/dashboard.webp"
+        imageSrc="/images/product/dashboard.png"
         imageAlt="High level summary dashboard"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function ReportsFeaturePage() {
         eyebrow="REVENUE TRACKING"
         title="Track the Numbers That Matter"
         description="Focus on what drives your business forward. Review your daily revenue, track completed payments, and monitor overall salon revenue reporting to ensure your business remains financially healthy."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Tracking revenue numbers"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function ReportsFeaturePage() {
         eyebrow="MULTI-LOCATION"
         title="See Performance Across Your Business"
         description="For owners managing multiple branches, seeing the big picture is essential. Our platform provides cross-location reporting, allowing you to view performance metrics for individual locations or your entire salon enterprise from one screen."
-        imageSrc="/images/product/multi-location.webp"
+        imageSrc="/images/product/multi-location.png"
         imageAlt="Cross-location performance metrics"
         backgroundColor="var(--bg-page)"
       />

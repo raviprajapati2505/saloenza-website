@@ -70,7 +70,7 @@ export default function AppointmentsFeaturePage() {
         eyebrow="APPOINTMENT MANAGEMENT"
         title="Smart Salon Appointment Scheduling"
         description="Keep your salon organized with intuitive appointment scheduling software. Manage your calendar and daily bookings effortlessly from one connected workspace."
-        imageSrc="/images/product/appointments.webp"
+        imageSrc="/images/product/appointments.png"
         imageAlt="Saloenza Salon Appointment Scheduling Software Interface"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function AppointmentsFeaturePage() {
         eyebrow="CALENDAR CLARITY"
         title="Keep Your Daily Schedule Organized"
         description="Take control of your day with a clear, visual calendar. Our salon scheduling software allows salon owners and team members to manage appointments at a glance, ensuring that the entire team knows exactly what the day looks like without constant check-ins."
-        imageSrc="/images/product/dashboard.webp"
+        imageSrc="/images/product/dashboard.png"
         imageAlt="Salon daily schedule view"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function AppointmentsFeaturePage() {
         eyebrow="SEAMLESS BOOKING"
         title="Make Booking Easier"
         description="A smart salon booking software streamlines the workflow of adding and modifying appointments. By providing a clean interface that actively prevents double-bookings and scheduling conflicts, you can quickly secure client slots with confidence."
-        imageSrc="/images/product/appointments.webp"
+        imageSrc="/images/product/appointments.png"
         imageAlt="Booking interface"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function AppointmentsFeaturePage() {
         eyebrow="TEAM COORDINATION"
         title="Coordinate Your Team"
         description="An effective appointment management system works in lockstep with your staff operations. Securely share schedules, manage team availability, and ensure that appointments are only booked when the right team member is on the clock."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Staff scheduling view"
         backgroundColor="var(--bg-page)"
       />

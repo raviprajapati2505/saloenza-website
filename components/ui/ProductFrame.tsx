@@ -53,7 +53,7 @@ const variantStyles: Record<FrameVariant, string> = {
  * Usage:
  *   // Fixed dimensions (preferred for performance)
  *   <ProductFrame
- *     src="/images/screenshot-dashboard.webp"
+ *     src="/images/screenshot-dashboard.png"
  *     alt="Saloenza dashboard showing appointment overview"
  *     width={1280}
  *     height={800}
@@ -62,7 +62,7 @@ const variantStyles: Record<FrameVariant, string> = {
  *
  *   // Fill mode inside aspect-ratio container
  *   <ProductFrame
- *     src="/images/screenshot-pos.webp"
+ *     src="/images/screenshot-pos.png"
  *     alt="Point of sale interface"
  *     fill
  *     aspectRatio="4/3"

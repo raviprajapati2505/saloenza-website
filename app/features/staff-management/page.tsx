@@ -70,7 +70,7 @@ export default function StaffManagementFeaturePage() {
         eyebrow="STAFF MANAGEMENT"
         title="Manage Your Salon Team With Confidence"
         description="Organize your team, secure your data with role-based access, and manage staff operations seamlessly from one connected workspace."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Saloenza Salon Staff Management Software and Permissions Dashboard"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function StaffManagementFeaturePage() {
         eyebrow="TEAM ORGANIZATION"
         title="Keep Your Team Organized"
         description="Bring clarity to your salon team operations. A dedicated stylist management software environment allows you to organize staff details systematically, ensuring every team member is accounted for and their operational status is always up to date."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Staff organization directory"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function StaffManagementFeaturePage() {
         eyebrow="ACCESS CONTROL"
         title="Manage Roles and Access"
         description="Your salon data is highly sensitive. Saloenza provides robust access control, allowing you to define precise roles and permissions. Restrict financial reports to managers while giving stylists exactly what they need to manage their daily appointments—no more, no less."
-        imageSrc="/images/product/settings.webp"
+        imageSrc="/images/product/settings.png"
         imageAlt="Role-based access permissions"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function StaffManagementFeaturePage() {
         eyebrow="SCHEDULING"
         title="Connect Staff With Appointments"
         description="Salon staff scheduling relies entirely on accurate appointment data. Because Saloenza integrates your team directory with your calendar, an appointment can only be booked when the specific stylist is available and scheduled to work—preventing double bookings."
-        imageSrc="/images/product/appointments.webp"
+        imageSrc="/images/product/appointments.png"
         imageAlt="Scheduling appointments based on staff availability"
         backgroundColor="var(--bg-page)"
       />

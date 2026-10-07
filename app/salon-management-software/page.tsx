@@ -71,7 +71,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="SALOENZA PLATFORM"
         title="Salon Management Software for Modern Salons"
         description="Manage appointments, clients, staff, billing, inventory, reporting, and more with Saloenza. Build a better experience for your team and your customers."
-        imageSrc="/images/product/dashboard.webp"
+        imageSrc="/images/product/dashboard.png"
         imageAlt="Saloenza Salon Management Software Dashboard"
         floatingCards={[
           {
@@ -120,7 +120,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="APPOINTMENTS"
         title="Appointments and Daily Scheduling"
         description="Keep your day organized and make booking easier for your clients with smart salon appointment scheduling software. A visual, easy-to-use calendar helps you manage bookings, prevent scheduling conflicts, and optimize your team's availability."
-        imageSrc="/images/product/appointments.webp"
+        imageSrc="/images/product/appointments.png"
         imageAlt="Salon Appointment Scheduling Software Interface"
         backgroundColor="var(--bg-page)"
         features={[
@@ -135,7 +135,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="CLIENT PROFILES"
         title="Client Management"
         description="Build better relationships by keeping detailed client profiles. Our salon client management software ensures you have complete appointment histories, preferences, and important details organized in one secure place to deliver personalized experiences every visit."
-        imageSrc="/images/product/clients.webp"
+        imageSrc="/images/product/clients.png"
         imageAlt="Salon Client Management Software Profile"
         reverse={true}
         backgroundColor="var(--bg-page)"
@@ -151,7 +151,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="CHECKOUT"
         title="Billing & Point of Sale (POS)"
         description="Manage day-to-day transactions efficiently with an integrated salon POS system. Seamless checkouts process services and retail products together, ensuring accurate daily revenue tracking without the friction of switching to a separate payment app."
-        imageSrc="/images/product/billing-pos.webp"
+        imageSrc="/images/product/billing-pos.png"
         imageAlt="Salon POS System and Billing Software"
         backgroundColor="var(--bg-page)"
         features={[
@@ -166,7 +166,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="TEAM WORKSPACE"
         title="Staff Management"
         description="Empower your team with salon staff management software. Organize schedules, manage staff-related operations, and securely share calendars so everyone knows exactly what their day looks like."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Salon Staff Management and Scheduling"
         reverse={true}
         backgroundColor="var(--bg-page)"
@@ -182,7 +182,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="STOCK CONTROL"
         title="Inventory Management"
         description="Take total control over your retail products and professional supplies. Salon inventory management software gives you absolute precision, automatic low-stock alerts, and the ability to generate purchase orders instantly."
-        imageSrc="/images/product/inventory.webp"
+        imageSrc="/images/product/inventory.png"
         imageAlt="Salon Inventory Management Software"
         backgroundColor="var(--bg-page)"
         features={[
@@ -197,7 +197,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="ANALYTICS"
         title="Reports & Business Insights"
         description="Understand your salon's performance at a glance. Salon reporting software provides clear visibility into revenue, staff performance, and retail profitability, giving you the insights needed to grow your beauty business."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Salon Reporting Software and Analytics Dashboard"
         reverse={true}
         backgroundColor="var(--bg-page)"
@@ -213,7 +213,7 @@ export default function SalonManagementSoftwarePage() {
         eyebrow="SCALE"
         title="Multi-Location Management"
         description="Multi-location salon management software allows you to standardize services across all branches, share staff schedules securely, and monitor cross-location performance from a centralized control panel."
-        imageSrc="/images/product/multi-location.webp"
+        imageSrc="/images/product/multi-location.png"
         imageAlt="Multi-Location Salon Management Software"
         backgroundColor="var(--bg-page)"
         features={[

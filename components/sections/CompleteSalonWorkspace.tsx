@@ -154,7 +154,7 @@ export function CompleteSalonWorkspace() {
             {/* Dominant Screenshot: Reports */}
             <FadeIn delay={300} className="relative z-10 w-full lg:absolute lg:top-0 lg:right-0 lg:w-[85%] order-1 mb-8 lg:mb-0">
               <ProductFrame
-                src="/images/product/reports.webp"
+                src="/images/product/reports.png"
                 alt="Saloenza business reporting and analytics dashboard"
                 width={2000}
                 height={1125}
@@ -167,7 +167,7 @@ export function CompleteSalonWorkspace() {
             <FadeUp delay={400} className="relative z-20 w-full lg:absolute lg:bottom-[20%] lg:left-0 lg:w-[55%] order-2 mb-8 lg:mb-0">
               <div className="lg:transform lg:-rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
-                  src="/images/product/staff.webp"
+                  src="/images/product/staff.png"
                   alt="Saloenza staff management and schedules"
                   width={2000}
                   height={1125}
@@ -181,7 +181,7 @@ export function CompleteSalonWorkspace() {
             <FadeUp delay={500} className="relative z-30 w-full lg:absolute lg:-bottom-[5%] lg:right-[10%] lg:w-[48%] order-3">
               <div className="lg:transform lg:rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-40 hover:scale-[1.02]">
                 <ProductFrame
-                  src="/images/product/inventory.webp"
+                  src="/images/product/inventory.png"
                   alt="Saloenza salon inventory tracking"
                   width={2000}
                   height={1125}

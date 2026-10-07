@@ -70,7 +70,7 @@ export default function BillingPosFeaturePage() {
         eyebrow="BILLING & POS"
         title="Simple, Connected Salon Billing"
         description="Simplify the checkout experience and manage daily transactions effortlessly. Say goodbye to disconnected card terminals and manual entry with our unified salon POS software."
-        imageSrc="/images/product/billing-pos.webp"
+        imageSrc="/images/product/billing-pos.png"
         imageAlt="Saloenza Salon Billing Software and Point of Sale Checkout"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function BillingPosFeaturePage() {
         eyebrow="SMART CHECKOUT"
         title="Keep Every Checkout Organized"
         description="End the confusion at the front desk. Saloenza allows you to easily process services and retail items together on a single ticket. The intuitive billing workflow ensures your front desk staff can complete checkouts swiftly, giving clients a polished, professional exit."
-        imageSrc="/images/product/billing-pos.webp"
+        imageSrc="/images/product/billing-pos.png"
         imageAlt="Salon checkout process"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function BillingPosFeaturePage() {
         eyebrow="REVENUE TRACKING"
         title="Make Day-to-Day Transactions Simple"
         description="Manage your salon's daily revenue effortlessly. Our salon billing system records transactions securely and clearly, giving you absolute confidence in your end-of-day numbers without the headache of manual reconciliation."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Daily revenue tracking"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function BillingPosFeaturePage() {
         eyebrow="CONNECTED ECOSYSTEM"
         title="Connect Billing With Your Entire Salon"
         description="A true salon POS system shouldn't operate in a vacuum. Because your billing software is directly connected to your salon platform, every ticket processed instantly updates your daily metrics and inventory counts."
-        imageSrc="/images/product/inventory.webp"
+        imageSrc="/images/product/inventory.png"
         imageAlt="Inventory tracking connection"
         backgroundColor="var(--bg-page)"
       />

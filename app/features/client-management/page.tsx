@@ -70,7 +70,7 @@ export default function ClientManagementFeaturePage() {
         eyebrow="CLIENT MANAGEMENT"
         title="Build Better Client Relationships"
         description="Keep client information, appointment history, and essential notes organized in one connected workspace. Deliver a more personalized salon experience, every single visit."
-        imageSrc="/images/product/clients.webp"
+        imageSrc="/images/product/clients.png"
         imageAlt="Saloenza Salon Client Management Software Profile View"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function ClientManagementFeaturePage() {
         eyebrow="CENTRALIZED RECORDS"
         title="Keep Every Detail in One Place"
         description="Consolidate contact information, crucial notes, and service preferences into a single digital profile. Finding a client's specific color formula or preferred stylist takes seconds, ensuring consistency across every visit."
-        imageSrc="/images/product/clients.webp"
+        imageSrc="/images/product/clients.png"
         imageAlt="Client profile details"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function ClientManagementFeaturePage() {
         eyebrow="APPOINTMENT CONTEXT"
         title="Context Behind Every Booking"
         description="When a client calls or books online, their complete history is at your fingertips. You can instantly review past services and upcoming schedules to provide tailored recommendations."
-        imageSrc="/images/product/appointments.webp"
+        imageSrc="/images/product/appointments.png"
         imageAlt="Appointments linked to clients"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function ClientManagementFeaturePage() {
         eyebrow="TEAM EMPOWERMENT"
         title="Context for Your Team"
         description="Empower your staff to deliver premium service. By centralizing client information, any team member can pick up right where the last stylist left off, creating a unified and professional salon environment."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Staff viewing client details"
         backgroundColor="var(--bg-page)"
       />

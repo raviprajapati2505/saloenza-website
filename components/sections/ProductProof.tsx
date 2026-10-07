@@ -52,7 +52,7 @@ export function ProductProof() {
             <div className="w-full md:w-[76%] mx-auto relative z-10 order-2 md:order-none">
               <ScaleReveal from={0.97} duration={700}>
                 <ProductFrame
-                  src="/images/product/appointments.webp"
+                  src="/images/product/appointments.png"
                   alt="Saloenza Smart Appointments Calendar"
                   width={2000}
                   height={1125}
@@ -66,7 +66,7 @@ export function ProductProof() {
             <FadeUp delay={200} className="w-full md:w-[38%] md:absolute md:-left-[8%] md:top-[12%] md:z-20 order-1 md:order-none mb-8 md:mb-0">
               <div className="md:transform md:-rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
-                  src="/images/product/clients.webp"
+                  src="/images/product/clients.png"
                   alt="Saloenza Client Profiles"
                   width={2000}
                   height={1125}
@@ -79,7 +79,7 @@ export function ProductProof() {
             <FadeUp delay={300} className="w-full md:w-[38%] md:absolute md:-right-[8%] md:-bottom-[10%] md:z-20 order-3 md:order-none mt-8 md:mt-0">
               <div className="md:transform md:rotate-2 transition-transform duration-500 hover:rotate-0 hover:z-30 hover:scale-[1.02]">
                 <ProductFrame
-                  src="/images/product/billing-pos.webp"
+                  src="/images/product/billing-pos.png"
                   alt="Saloenza POS and Billing Interface"
                   width={2000}
                   height={1125}

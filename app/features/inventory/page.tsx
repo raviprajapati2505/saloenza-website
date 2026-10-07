@@ -70,7 +70,7 @@ export default function InventoryFeaturePage() {
         eyebrow="INVENTORY MANAGEMENT"
         title="Smart Inventory Management for Your Salon"
         description="Take control of your retail products and professional supplies. Track stock, monitor low-stock alerts, and manage purchasing from one connected platform."
-        imageSrc="/images/product/inventory.webp"
+        imageSrc="/images/product/inventory.png"
         imageAlt="Saloenza Salon Inventory Management Software Dashboard"
         floatingCards={[
           {
@@ -98,7 +98,7 @@ export default function InventoryFeaturePage() {
         eyebrow="STOCK CONTROL"
         title="Complete Control Over Your Products"
         description="Maintain a crystal-clear view of your current inventory. Our salon inventory tracking tools ensure you always know exactly how many products you have on hand, preventing expensive over-ordering and disorganized stock rooms."
-        imageSrc="/images/product/inventory.webp"
+        imageSrc="/images/product/inventory.png"
         imageAlt="Inventory tracking interface"
         backgroundColor="var(--bg-page)"
         features={[
@@ -117,7 +117,7 @@ export default function InventoryFeaturePage() {
         eyebrow="AUTOMATED UPDATES"
         title="Connect Inventory With Billing"
         description="When a client purchases a retail product at the front desk, your inventory is automatically updated in the background. By linking your stock control directly with your point of sale, you eliminate manual reconciliation entirely."
-        imageSrc="/images/product/billing-pos.webp"
+        imageSrc="/images/product/billing-pos.png"
         imageAlt="Billing POS linked to inventory"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -127,7 +127,7 @@ export default function InventoryFeaturePage() {
         eyebrow="ACTIONABLE INSIGHTS"
         title="Get a Clearer View of Your Business"
         description="Because your inventory is tied to your daily operations, your reporting becomes instantly more powerful. Track exactly which retail products are driving revenue and monitor the financial impact of your professional supplies."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Reporting on inventory metrics"
         backgroundColor="var(--bg-page)"
       />

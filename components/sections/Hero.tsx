@@ -11,32 +11,32 @@ import { FadeUp, FadeIn } from '@/components/motion';
 const CAPABILITIES = [
   {
     label: 'Appointments',
-    src: '/images/product/appointments.webp',
+    src: '/images/product/appointments.png',
     alt: 'Saloenza appointment calendar — bookings, availability and staff schedule',
   },
   {
     label: 'Clients',
-    src: '/images/product/clients.webp',
+    src: '/images/product/clients.png',
     alt: 'Saloenza client management — profiles, history and contact details',
   },
   {
     label: 'Staff',
-    src: '/images/product/staff.webp',
+    src: '/images/product/staff.png',
     alt: 'Saloenza staff management — team members, schedules and performance',
   },
   {
     label: 'Billing & POS',
-    src: '/images/product/billing-pos.webp',
+    src: '/images/product/billing-pos.png',
     alt: 'Saloenza billing and point-of-sale — invoices, payments and checkout',
   },
   {
     label: 'Inventory',
-    src: '/images/product/inventory.webp',
+    src: '/images/product/inventory.png',
     alt: 'Saloenza inventory — product stock, usage and reorder levels',
   },
   {
     label: 'Reporting',
-    src: '/images/product/reports.webp',
+    src: '/images/product/reports.png',
     alt: 'Saloenza reporting — revenue charts, analytics and business performance',
   },
 ] as const;

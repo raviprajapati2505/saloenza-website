@@ -22,7 +22,7 @@ export function PlatformCapabilities() {
               />
               <div className="relative z-10">
                 <ProductFrame
-                  src="/images/product/multi-location.webp"
+                  src="/images/product/multi-location.png"
                   alt="Saloenza Multi-Location Management Interface"
                   width={2000}
                   height={1125}
@@ -77,7 +77,7 @@ export function PlatformCapabilities() {
               />
               <div className="relative z-10">
                 <ProductFrame
-                  src="/images/product/inventory.webp"
+                  src="/images/product/inventory.png"
                   alt="Saloenza Salon Inventory Management Dashboard"
                   width={2000}
                   height={1125}

@@ -78,7 +78,7 @@ export default function MultiLocationSolutionPage() {
         eyebrow="MULTI-LOCATION MANAGEMENT"
         title="Manage Every Salon Location From One Connected Platform"
         description="Run multiple salon locations without losing visibility across your business. Saloenza connects appointments, clients, staff, billing, inventory, and reporting in one connected salon management platform."
-        imageSrc="/images/product/multi-location.webp"
+        imageSrc="/images/product/multi-location.png"
         imageAlt="Saloenza Multi-Location Salon Management Software Dashboard"
         floatingCards={[
           {
@@ -106,7 +106,7 @@ export default function MultiLocationSolutionPage() {
         eyebrow="CONSISTENT OPERATIONS"
         title="Standardize Operations Across Branches"
         description="When every branch runs on the same platform, consistency follows naturally. Your service menu, client records, and operational workflows remain aligned across locations—so the experience you deliver at your flagship branch is the same experience clients receive everywhere."
-        imageSrc="/images/product/dashboard.webp"
+        imageSrc="/images/product/dashboard.png"
         imageAlt="Unified operations dashboard"
         backgroundColor="var(--bg-page)"
         features={[
@@ -125,7 +125,7 @@ export default function MultiLocationSolutionPage() {
         eyebrow="TEAM MANAGEMENT"
         title="Manage Staff and Permissions"
         description="Maintaining clear team access across branches is critical for security and operational clarity. Saloenza allows you to define specific roles and permissions for each team member, giving them access only to the branches and functionality relevant to their role."
-        imageSrc="/images/product/staff.webp"
+        imageSrc="/images/product/staff.png"
         imageAlt="Managing staff across locations"
         reverse={true}
         backgroundColor="#FFFFFF"
@@ -135,7 +135,7 @@ export default function MultiLocationSolutionPage() {
         eyebrow="BUSINESS VISIBILITY"
         title="See Performance Across Your Business"
         description="Understand exactly how each location is performing. Saloenza provides cross-location reporting, allowing you to view daily revenue, payment summaries, and business metrics at the individual branch level or across your entire operation."
-        imageSrc="/images/product/reports.webp"
+        imageSrc="/images/product/reports.png"
         imageAlt="Cross-location business reporting"
         backgroundColor="var(--bg-page)"
       />
