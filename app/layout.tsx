@@ -46,10 +46,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@saloenza',
   },
-  icons: {
-    icon: '/brand/saloenza-logo.png',
-    apple: '/brand/saloenza-logo.png',
-  },
   robots: {
     index: true,
     follow: true,
